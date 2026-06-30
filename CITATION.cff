@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software or data, please cite the associated paper as below."
 type: software
 title: "AMR Novel Gene Discovery — Reproducibility Pipeline"
+doi: 10.5281/zenodo.21073430
 abstract: >
   An integrated pangenome-to-structure computational pipeline for prioritizing
   divergent AMR and virulence candidates in clinical Escherichia coli isolates.

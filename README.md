@@ -37,8 +37,15 @@
  (BioProject: **PRJNA1481519**) ![BioProject](https://img.shields.io/badge/BioProject-PRJNA1481519-green)
 
 [![Paper](https://img.shields.io/badge/Paper-Microbiology-blue)]()
-[![DOI](https://zenodo.org/badge/1285146114.svg)](https://doi.org/10.5281/zenodo.21073429)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21073430.svg)](https://doi.org/10.5281/zenodo.21073430)
 [![Citation](https://img.shields.io/badge/Citation-CFF-blue)](CITATION.cff)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![OS](https://img.shields.io/badge/OS-Linux%20%7C%20Windows-lightgrey.svg)](https://github.com/hosniadilemp-a11y/AMR_Novel_Gene_Discovery)
+<br>
+![Organism](https://img.shields.io/badge/Organism-E.%20coli-orange.svg)
+![Domain](https://img.shields.io/badge/Domain-AMR%20%26%20Virulence-red.svg)
+![Workflow](https://img.shields.io/badge/Workflow-Pangenomics%20to%20Structure-blueviolet.svg)
+![Reproducibility](https://img.shields.io/badge/Reproducibility-100%25-brightgreen.svg)
 
 ## Pipeline Schema
 
