@@ -39,7 +39,7 @@
 [![Paper](https://img.shields.io/badge/Paper-Microbiology-blue)]()
 [![DOI](https://zenodo.org/badge/1285146114.svg)](https://doi.org/10.5281/zenodo.21073429)
 [![Citation](https://img.shields.io/badge/Citation-CFF-blue)](CITATION.cff)
-[![Open Access](https://img.shields.io/badge/Open%20Access-Yes-brightgreen)]
+
 ## Pipeline Schema
 
 ![Computational Genomics Prioritization Pipeline Schema](figures/Fig01_Discovery_Pipeline_Schema.png)
