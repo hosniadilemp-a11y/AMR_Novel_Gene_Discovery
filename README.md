@@ -1,3 +1,20 @@
+
+# AMR Novel Gene Discovery
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
+[![Conda](https://img.shields.io/badge/Conda-Supported-44A833.svg?logo=anaconda&logoColor=white)](https://anaconda.org/)
+[![Ubuntu](https://img.shields.io/badge/Tested%20on-Ubuntu%2024.04-E95420.svg?logo=ubuntu)](https://ubuntu.com/)
+[![GitHub release](https://img.shields.io/github/v/release/hosniadilemp-a11y/AMR_Novel_Gene_Discovery)](https://github.com/hosniadilemp-a11y/AMR_Novel_Gene_Discovery/releases)
+[![GitHub last commit](https://img.shields.io/github/last-commit/hosniadilemp-a11y/AMR_Novel_Gene_Discovery)](https://github.com/hosniadilemp-a11y/AMR_Novel_Gene_Discovery/commits/main)
+[![GitHub issues](https://img.shields.io/github/issues/hosniadilemp-a11y/AMR_Novel_Gene_Discovery)](https://github.com/hosniadilemp-a11y/AMR_Novel_Gene_Discovery/issues)
+[![GitHub stars](https://img.shields.io/github/stars/hosniadilemp-a11y/AMR_Novel_Gene_Discovery?style=social)](https://github.com/hosniadilemp-a11y/AMR_Novel_Gene_Discovery/stargazers)
+
+![Organism](https://img.shields.io/badge/Organism-Escherichia%20coli-blue)
+![Research](https://img.shields.io/badge/Research-Antimicrobial%20Resistance-red)
+![Pipeline](https://img.shields.io/badge/Pipeline-Pangenomics-success)
+![GraphML](https://img.shields.io/badge/Machine%20Learning-Graph%20Neural%20Networks-orange)
+![Status](https://img.shields.io/badge/Status-Reproducible-brightgreen)
 # AMR Novel Gene Discovery — Reproducibility Package
 
 **Manuscript:** Structure-guided prioritization of divergent virulence and resistance candidates in an open pangenome clinical *Escherichia coli* isolate
@@ -10,7 +27,6 @@
 
 **Raw Sequencing Reads:** NCBI SRA accession **SRR39314025** (BioProject: **PRJNA1481519**)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Pipeline Schema
 
