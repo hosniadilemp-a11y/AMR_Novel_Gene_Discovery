@@ -40,12 +40,23 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21073430.svg)](https://doi.org/10.5281/zenodo.21073430)
 [![Citation](https://img.shields.io/badge/Citation-CFF-blue)](CITATION.cff)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Conda](https://img.shields.io/badge/Conda-Environment-44A833.svg?logo=anaconda&logoColor=white)](environment/environment.yml)
 [![OS](https://img.shields.io/badge/OS-Linux%20%7C%20Windows-lightgrey.svg)](https://github.com/hosniadilemp-a11y/AMR_Novel_Gene_Discovery)
+[![Ubuntu](https://img.shields.io/badge/Tested%20on-Ubuntu%2024.04-E95420.svg?logo=ubuntu)](https://ubuntu.com/)
+[![GitHub Release](https://img.shields.io/github/v/release/hosniadilemp-a11y/AMR_Novel_Gene_Discovery)](https://github.com/hosniadilemp-a11y/AMR_Novel_Gene_Discovery/releases)
+[![NCBI SRA](https://img.shields.io/badge/NCBI%20SRA-SRR39314025-blue)](https://www.ncbi.nlm.nih.gov/sra/SRR39314025)
+[![BioProject](https://img.shields.io/badge/BioProject-PRJNA1481519-green)](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1481519)
 <br>
-![Organism](https://img.shields.io/badge/Organism-E.%20coli-orange.svg)
-![Domain](https://img.shields.io/badge/Domain-AMR%20%26%20Virulence-red.svg)
-![Workflow](https://img.shields.io/badge/Workflow-Pangenomics%20to%20Structure-blueviolet.svg)
-![Reproducibility](https://img.shields.io/badge/Reproducibility-100%25-brightgreen.svg)
+![Organism](https://img.shields.io/badge/Organism-Escherichia%20coli-3776AB)
+![Species](https://img.shields.io/badge/ST-ST354-success)
+![Domain](https://img.shields.io/badge/Research-AMR-red)
+![Pipeline](https://img.shields.io/badge/Pipeline-Pangenomics-blueviolet)
+![Method](https://img.shields.io/badge/Method-Structural%20Bioinformatics-orange)
+![AI](https://img.shields.io/badge/AI-Protein%20Language%20Models-blue)
+![MD](https://img.shields.io/badge/Molecular%20Dynamics-127%20ns-blue)
+![Reproducible](https://img.shields.io/badge/Reproducible-Research-brightgreen)
+![FAIR](https://img.shields.io/badge/FAIR-Compliant-success)
+![Documentation](https://img.shields.io/badge/Documentation-Complete-success)
 
 ## Pipeline Schema
 
