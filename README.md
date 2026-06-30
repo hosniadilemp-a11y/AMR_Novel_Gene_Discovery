@@ -9,12 +9,21 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/hosniadilemp-a11y/AMR_Novel_Gene_Discovery)](https://github.com/hosniadilemp-a11y/AMR_Novel_Gene_Discovery/commits/main)
 [![GitHub issues](https://img.shields.io/github/issues/hosniadilemp-a11y/AMR_Novel_Gene_Discovery)](https://github.com/hosniadilemp-a11y/AMR_Novel_Gene_Discovery/issues)
 [![GitHub stars](https://img.shields.io/github/stars/hosniadilemp-a11y/AMR_Novel_Gene_Discovery?style=social)](https://github.com/hosniadilemp-a11y/AMR_Novel_Gene_Discovery/stargazers)
+![NCBI](https://img.shields.io/badge/NCBI-SRR39314025-blue)
+![BioProject](https://img.shields.io/badge/BioProject-PRJNA1481519-green)
+![Zenodo](https://img.shields.io/badge/Zenodo-Archive-blue)
 
 ![Organism](https://img.shields.io/badge/Organism-Escherichia%20coli-blue)
 ![Research](https://img.shields.io/badge/Research-Antimicrobial%20Resistance-red)
 ![Pipeline](https://img.shields.io/badge/Pipeline-Pangenomics-success)
 ![GraphML](https://img.shields.io/badge/Machine%20Learning-Graph%20Neural%20Networks-orange)
 ![Status](https://img.shields.io/badge/Status-Reproducible-brightgreen)
+[Method](https://img.shields.io/badge/Method-Structural%20Bioinformatics-orange)
+![AI](https://img.shields.io/badge/AI-Protein%20Language%20Models-blue)
+![GNN](https://img.shields.io/badge/Machine%20Learning-Graph%20Neural%20Networks-ff69b4)
+![Docking](https://img.shields.io/badge/Molecular-Docking-success)
+![MD](https://img.shields.io/badge/Molecular%20Dynamics-127%20ns-blue)
+![Foldseek](https://img.shields.io/badge/Foldseek-Enabled-success)
 # AMR Novel Gene Discovery — Reproducibility Package
 
 **Manuscript:** Structure-guided prioritization of divergent virulence and resistance candidates in an open pangenome clinical *Escherichia coli* isolate
@@ -27,7 +36,10 @@
 
 **Raw Sequencing Reads:** NCBI SRA accession **SRR39314025** (BioProject: **PRJNA1481519**)
 
-
+[![Paper](https://img.shields.io/badge/Paper-Microbiology-blue)]()
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxx.svg)]()
+[![Citation](https://img.shields.io/badge/Citation-CFF-blue)](CITATION.cff)
+[![Open Access](https://img.shields.io/badge/Open%20Access-Yes-brightgreen)]
 ## Pipeline Schema
 
 ![Computational Genomics Prioritization Pipeline Schema](figures/Fig01_Discovery_Pipeline_Schema.png)
@@ -177,6 +189,11 @@ AMR_Novel_Gene_Discovery/
 ---
 
 ## System Requirements
+![GPU](https://img.shields.io/badge/GPU-Kaggle%20T4-important)
+![GPU2](https://img.shields.io/badge/GPU-RTX3090-success)
+![CPU](https://img.shields.io/badge/CPU-16%20Cores-blue)
+![RAM](https://img.shields.io/badge/RAM-64GB-blue)
+
 
 | Component | Requirement |
 |---|---|
