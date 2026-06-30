@@ -9,8 +9,7 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/hosniadilemp-a11y/AMR_Novel_Gene_Discovery)](https://github.com/hosniadilemp-a11y/AMR_Novel_Gene_Discovery/commits/main)
 [![GitHub issues](https://img.shields.io/github/issues/hosniadilemp-a11y/AMR_Novel_Gene_Discovery)](https://github.com/hosniadilemp-a11y/AMR_Novel_Gene_Discovery/issues)
 [![GitHub stars](https://img.shields.io/github/stars/hosniadilemp-a11y/AMR_Novel_Gene_Discovery?style=social)](https://github.com/hosniadilemp-a11y/AMR_Novel_Gene_Discovery/stargazers)
-![NCBI](https://img.shields.io/badge/NCBI-SRR39314025-blue)
-![BioProject](https://img.shields.io/badge/BioProject-PRJNA1481519-green)
+
 ![Zenodo](https://img.shields.io/badge/Zenodo-Archive-blue)
 
 ![Organism](https://img.shields.io/badge/Organism-Escherichia%20coli-blue)
@@ -34,10 +33,11 @@
 
 **Isolate:** *Escherichia coli* QA5221 (Sequence Type ST354, ExPEC)
 
-**Raw Sequencing Reads:** NCBI SRA accession **SRR39314025** (BioProject: **PRJNA1481519**)
+**Raw Sequencing Reads:** NCBI SRA accession **SRR39314025** ![NCBI](https://img.shields.io/badge/NCBI-SRR39314025-blue)
+ (BioProject: **PRJNA1481519**) ![BioProject](https://img.shields.io/badge/BioProject-PRJNA1481519-green)
 
 [![Paper](https://img.shields.io/badge/Paper-Microbiology-blue)]()
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxx.svg)]()
+[![DOI](https://zenodo.org/badge/1285146114.svg)](https://doi.org/10.5281/zenodo.21073429)
 [![Citation](https://img.shields.io/badge/Citation-CFF-blue)](CITATION.cff)
 [![Open Access](https://img.shields.io/badge/Open%20Access-Yes-brightgreen)]
 ## Pipeline Schema
