@@ -1,0 +1,74 @@
+# =============================================================================
+# .gitignore — AMR Novel Gene Discovery Repository
+# =============================================================================
+
+# Large raw data files (deposit to NCBI SRA / Zenodo instead)
+data/raw_reads/*.fastq
+data/raw_reads/*.fastq.gz
+data/raw_reads/*.bam
+data/raw_reads/*.sam
+
+# Large assembly intermediate files
+results/step2_assembly/spades_output/K*/
+results/step2_assembly/spades_output/*.fasta.fai
+results/step2_assembly/mapping/*.sam
+results/step2_assembly/mapping/*.bam
+results/step2_assembly/mapping/*.bam.bai
+
+# Large MD trajectory files (archive to Zenodo)
+*.dcd
+*.chk
+*.xtc
+*.trr
+md_apo_trajectory.dcd
+md_holo_trajectory.dcd
+md_*_trajectory.dcd
+
+# Reference genome FASTA files (large; download via download_genomes.py)
+results/step3_annotation/reference_genomes/*.fna
+results/step3_annotation/reference_genomes/*.fasta
+
+# Conda environment caches
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.bak2
+*.pre_revision
+
+# LaTeX compilation artefacts
+*.aux
+*.log
+*.out
+*.toc
+*.blg
+*.bbl
+*.synctex.gz
+
+# OS-specific
+.DS_Store
+Thumbs.db
+.fuse_hidden*
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Large ESMFold model cache (download from HuggingFace)
+esm_models/
+*.pt
+
+# Large database files
+amrfinder_db/
+blast_db/

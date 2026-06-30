@@ -1,0 +1,34 @@
+# =============================================================================
+# Molecular Dynamics Configuration — OpenMM Parameters
+# =============================================================================
+
+# --- Force Field Selection ---
+forcefield: "amber14-all.xml"
+water_model: "amber14/tip3pfb.xml"
+
+# --- Simulation Parameters ---
+temperature: 310.0          # Kelvin (human body temperature)
+pressure: 1.0               # atm
+friction_coefficient: 1.0   # ps^-1 (Langevin thermostat collision frequency)
+timestep: 0.002             # ps (2 fs)
+
+# --- Boundary Conditions & Electrostatics ---
+nonbonded_method: "PME"     # Particle Mesh Ewald
+nonbonded_cutoff: 1.0       # nm (10 Angstroms)
+padding: 1.2                # nm (padding of water box around protein)
+ionic_strength: 0.15        # Molar (NaCl concentration matching physiological)
+
+# --- Production Runs Configuration ---
+runs:
+  gnat_apo:
+    steps: 64000000         # 128 ns
+    checkpoint_steps: 500000
+    report_steps: 5000
+  ehly_apo:
+    steps: 50000000         # 100 ns
+    checkpoint_steps: 500000
+    report_steps: 5000
+  wzy_apo:
+    steps: 50000000         # 100 ns
+    checkpoint_steps: 500000
+    report_steps: 5000

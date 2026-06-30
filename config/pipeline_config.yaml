@@ -1,0 +1,155 @@
+# =============================================================================
+# Pipeline Configuration — AMR Novel Gene Discovery
+# =============================================================================
+# Edit this file to customize pipeline parameters before running run_all.sh
+
+# --- Isolate Information ---
+isolate_id: "QA5221"
+species: "Escherichia coli"
+sequence_type: "ST354"
+sra_accession: "SRR39314025"
+bioproject: "PRJNA1481519"
+
+# --- Input Paths ---
+raw_reads:
+  r1: "data/raw_reads/QA5221_R1.fastq.gz"
+  r2: "data/raw_reads/QA5221_R2.fastq.gz"
+reference_accessions:
+  st354_cohort: "data/reference_accessions/st354_cohort_accessions.txt"
+  outgroups: "data/reference_accessions/outgroup_accessions.txt"
+
+# --- Output Directory ---
+output_dir: "results/"
+
+# --- Step 1: QC & Trimming ---
+qc:
+  quality_cutoff: 30        # Phred quality score threshold (Q30)
+  min_read_length: 50       # Minimum read length after trimming (bp)
+  threads: 8
+
+# --- Step 2: Assembly ---
+assembly:
+  spades_mode: "--careful"  # SPAdes assembly mode
+  threads: 8
+  min_contig_length: 500    # Filter contigs shorter than this (bp)
+  reference_genome: "NC_000913.3"  # E. coli K-12 MG1655 for QUAST evaluation
+
+# --- Step 3: Annotation ---
+annotation:
+  prokka_kingdom: "Bacteria"
+  prokka_genus: "Escherichia"
+  prokka_species: "coli"
+  prokka_strain: "QA5221"
+  prokka_threads: 4
+  amrfinder_organism: "Escherichia"
+  abricate_databases:
+    - "resfinder"
+    - "vfdb"
+    - "card"
+    - "plasmidfinder"
+  amrfinder_database_version: "2026-05-15.1"
+
+# --- Step 3b: Pangenome ---
+pangenome:
+  panaroo_clean_mode: "strict"
+  panaroo_aligner: "mafft"
+  panaroo_threads: 16
+  min_core_frequency: 0.95          # Soft core threshold (95% = 31/32 genomes)
+  iqtree_model: "GTR+F+I+G4"
+  iqtree_bootstraps: 1000
+  iqtree_threads: "AUTO"
+  # Pangenome expansion (400 genomes) — Kaggle notebook
+  expansion_cohort_size: 400
+
+# --- Step 4: MGE Detection ---
+mge:
+  isescan_threads: 8
+  isescan_remove_short: true
+  integron_finder_cpu: 1            # Per-contig run (parallelized externally)
+  clinker_min_identity: 0.3         # Minimum protein identity for clinker
+
+# --- Step 5: Novel Candidate Extraction ---
+candidates:
+  min_protein_length: 200           # Minimum length in amino acids
+  blastp_evalue: 1.0e-5             # Swiss-Prot homology filter threshold
+  blastp_database: "swissprot"
+  pfam_api_url: "https://www.ebi.ac.uk/Tools/hmmer/search/hmmscan"
+  pangenome_presence_threshold: 1   # Max genomes where gene appears (singletons)
+
+# --- Step 6: Structure Prediction ---
+structure:
+  esmfold_chunk_size: 64            # Axial attention chunk for memory efficiency
+  esmfold_fp16_stem: true           # Cast ESM stem to float16 to save GPU VRAM
+  foldseek_databases:
+    - "pdb100"
+    - "afdb50"
+    - "afdb-swissprot"
+  foldseek_evalue: 0.001
+  tmscore_threshold: 0.5            # TM-score threshold for significant homology
+
+# --- Step 7: PLM Embeddings ---
+plm:
+  model: "facebook/esm2_t33_650M_UR50D"   # ESM-2 650M
+  embedding_layer: 33                       # Extract from last layer
+  umap_n_neighbors: 15
+  umap_min_dist: 0.1
+  umap_random_state: 42
+  tsne_perplexity: 30
+  tsne_random_state: 42
+
+# --- Step 7: Molecular Docking ---
+docking:
+  grid_center:
+    x: 2.964
+    y: 2.776
+    z: 2.588
+  grid_size:
+    x: 25
+    y: 25
+    z: 25
+  exhaustiveness: 8
+  num_poses: 9
+  positive_controls:
+    - "Kanamycin"
+    - "Gentamicin"
+    - "Amikacin"
+  negative_controls:
+    - "Penicillin_G"
+    - "D_Glucose"
+    - "Tetracycline"
+
+# --- Step 8: Novelty Scoring ---
+scoring:
+  weights:
+    pangenome_singleton: 3
+    structural_novelty: 3
+    hgt_gc_evidence: 2
+    plm_amr_proximity: 2
+    novel_domain_no_pfam: 2
+    selection_pressure: 2
+    genomic_island_context: 1
+    coverage_support: 1
+  max_score: 16
+  tier1_threshold: 14    # Tier 1: Strong candidate
+  tier2_threshold: 11    # Tier 2: Likely candidate
+  tier3_threshold: 8     # Tier 3: Possible candidate
+
+# --- Step 9: Molecular Dynamics ---
+md:
+  forcefield: "amber14-all.xml"
+  water_model: "amber14/tip3pfb.xml"
+  temperature: 310.0        # Kelvin (body temperature)
+  pressure: 1.0             # atm
+  friction_coeff: 1.0       # ps^-1 (Langevin thermostat)
+  timestep: 0.002           # ps (2 fs)
+  equilibration_steps: 25000
+  production_steps:
+    gnat_apo: 64000000      # 128 ns
+    ehly_apo: 50000000      # 100 ns
+    wzy_apo: 50000000       # 100 ns
+    gnat_holo: 10000000     # 20 ns
+  reporting_interval: 1000  # steps between snapshots
+  nonbonded_cutoff: 1.0     # nm
+  constraints: "HBonds"
+  use_pme: true             # Particle Mesh Ewald electrostatics
+  padding: 1.2              # nm water box padding around protein

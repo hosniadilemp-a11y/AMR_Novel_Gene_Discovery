@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the associated paper as below."
+type: software
+title: "AMR Novel Gene Discovery — Reproducibility Pipeline"
+abstract: >
+  An integrated pangenome-to-structure computational pipeline for prioritizing
+  divergent AMR and virulence candidates in clinical Escherichia coli isolates.
+  Combines pangenomic singleton filtering, structural fold prediction (ESMFold,
+  AlphaFold3), Foldseek homology search, protein language model (ESM-2 650M)
+  embeddings, molecular dynamics (OpenMM), and AutoDock Vina docking.
+authors:
+  - family-names: Benmoumou-Hosni
+    given-names: Sarra
+    email: sarra_ben@outlook.fr
+    affiliation: >
+      Laboratoire de Biologie des Systèmes Microbiens,
+      École Normale Supérieure de Kouba, 16000 Alger, Algeria
+    orcid: ""
+  - family-names: Meklat
+    given-names: Atika
+    affiliation: >
+      Laboratoire de Biologie des Systèmes Microbiens,
+      École Normale Supérieure de Kouba, 16000 Alger, Algeria
+  - family-names: Haleche
+    given-names: Ikram
+    affiliation: >
+      Département de Biologie, Université Saad Dahlab Blida 1,
+      B.P. 270, Route de Soumâa, 09000 Blida, Algeria
+repository-code: "https://github.com/hosniadilemp-a11y/AMR_Novel_Gene_Discovery"
+url: "https://github.com/hosniadilemp-a11y/AMR_Novel_Gene_Discovery"
+license: MIT
+version: "1.0.0"
+date-released: "2026"
+keywords:
+  - antimicrobial resistance
+  - Escherichia coli
+  - pangenomics
+  - protein structure prediction
+  - molecular dynamics
+  - protein language models
+  - bioinformatics
+  - ST354
+  - ExPEC
+preferred-citation:
+  type: article
+  title: >
+    Structure-guided prioritization of divergent virulence and resistance candidates
+    in an open pangenome clinical Escherichia coli isolate
+  authors:
+    - family-names: Benmoumou-Hosni
+      given-names: Sarra
+    - family-names: Meklat
+      given-names: Atika
+    - family-names: Haleche
+      given-names: Ikram
+  journal: "Microbiology"
+  year: 2026
+  doi: "TBD — to be updated on publication"
