@@ -18,7 +18,7 @@
 ![Pipeline](https://img.shields.io/badge/Pipeline-Pangenomics-success)
 ![GraphML](https://img.shields.io/badge/Machine%20Learning-Graph%20Neural%20Networks-orange)
 ![Status](https://img.shields.io/badge/Status-Reproducible-brightgreen)
-[Method](https://img.shields.io/badge/Method-Structural%20Bioinformatics-orange)
+![Method](https://img.shields.io/badge/Method-Structural%20Bioinformatics-orange)
 ![AI](https://img.shields.io/badge/AI-Protein%20Language%20Models-blue)
 ![GNN](https://img.shields.io/badge/Machine%20Learning-Graph%20Neural%20Networks-ff69b4)
 ![Docking](https://img.shields.io/badge/Molecular-Docking-success)
