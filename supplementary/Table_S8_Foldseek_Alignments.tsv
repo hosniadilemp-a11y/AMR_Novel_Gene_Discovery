@@ -1,0 +1,24 @@
+Locus Tag	Size (aa)	Length Filter	Pfam Hits	GC Content	GC Depression	TM-Score	Structural Homology	MGE / Genomic Island Context
+KNGPFPPJ_02769	351	Pass	0 (Pass)	32.9%	Pass (p < 10^-4)	0.9569 (Pass)	Pass	NODE_9 Composite Transposon
+KNGPFPPJ_00061	350	Pass	0 (Pass)	48.5%	Pass (p < 10^-4)	0.5899 (Pass)	Pass	NODE_1 Intact Prophage
+KNGPFPPJ_03161	372	Pass	0 (Pass)	29.3%	Pass (p < 10^-4)	0.8953 (Pass)	Pass	NODE_1 Intact Prophage
+KNGPFPPJ_04371	984	Pass	0 (Pass)	35.8%	Pass (p < 10^-4)	0.3450 (Domain Pass: 0.72)	Pass	NODE_24 Plasmid mobilization array
+KNGPFPPJ_00084	203	Pass	0 (Pass)	45.8%	Pass (p < 10^-4)	0.5352 (Pass)	Pass	NODE_1 Intact Prophage
+KNGPFPPJ_00091	249	Pass	0 (Pass)	51.2%	Pass (p < 0.05)	0.4573 (Partial Pass)	Pass	NODE_1 Intact Prophage
+KNGPFPPJ_00107	216	Pass	0 (Pass)	48.5%	Pass (p < 10^-4)	0.5864 (Pass)	Pass	NODE_1 Intact Prophage
+KNGPFPPJ_00109	344	Pass	0 (Pass)	44.9%	Pass (p < 10^-4)	0.7750 (Pass)	Pass	NODE_1 Intact Prophage
+KNGPFPPJ_00114	399	Pass	0 (Pass)	48.6%	Pass (p < 10^-4)	0.4854 (Partial Pass)	Pass	NODE_1 Intact Prophage
+KNGPFPPJ_04325	294	Pass	0 (Pass)	35.0%	Pass (p < 10^-4)	0.5000 (Pass)	Pass	NODE_23 Recombinase-associated Island
+KNGPFPPJ_04326	501	Pass	0 (Pass)	35.1%	Pass (p < 10^-4)	0.5200 (Pass)	Pass	NODE_23 Recombinase-associated Island
+KNGPFPPJ_03157	371	Pass	0 (Pass)	31.4%	Pass (p < 10^-4)	0.8972 (Pass)	Pass	NODE_1 Intact Prophage
+KNGPFPPJ_03836	246	Pass	0 (Pass)	46.7%	Pass (p < 10^-4)	0.9502 (Pass)	Pass	NODE_1 Intact Prophage
+KNGPFPPJ_00097	313	Pass	0 (Pass)	53.1%	Pass (p < 0.05)	0.8229 (Pass)	Pass	NODE_1 Intact Prophage
+KNGPFPPJ_00103	381	Pass	0 (Pass)	49.0%	Pass (p < 10^-4)	0.9051 (Pass)	Pass	NODE_1 Intact Prophage
+KNGPFPPJ_00106	668	Pass	0 (Pass)	52.2%	Pass (p < 0.05)	0.3253 (Partial Pass)	Pass	NODE_1 Intact Prophage
+KNGPFPPJ_00112	250	Pass	0 (Pass)	51.1%	Pass (p < 0.05)	0.8974 (Pass)	Pass	NODE_1 Intact Prophage
+KNGPFPPJ_00115	226	Pass	0 (Pass)	47.9%	Pass (p < 10^-4)	0.6774 (Pass)	Pass	NODE_1 Intact Prophage
+KNGPFPPJ_00400	574	Pass	0 (Pass)	32.9%	Pass (p < 10^-4)	0.6890 (Pass)	Pass	NODE_1 Intact Prophage
+KNGPFPPJ_01156	300	Pass	0 (Pass)	32.6%	Pass (p < 10^-4)	0.7379 (Pass)	Pass	Accessory chromosomal island
+KNGPFPPJ_01158	677	Pass	0 (Pass)	32.6%	Pass (p < 10^-4)	0.7823 (Pass)	Pass	Accessory chromosomal island
+KNGPFPPJ_04303	256	Pass	0 (Pass)	39.4%	Pass (p < 10^-4)	0.7623 (Pass)	Pass	NODE_23 Recombinase-associated Island
+KNGPFPPJ_04571	290	Pass	0 (Pass)	38.6%	Pass (p < 10^-4)	0.7169 (Pass)	Pass	Accessory chromosomal island

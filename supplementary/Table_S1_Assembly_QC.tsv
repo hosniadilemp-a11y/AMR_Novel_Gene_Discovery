@@ -1,0 +1,11 @@
+Assembly Quality Metric	Value
+Draft Genome Length	5,026,316 bp
+Total Length (Contigs >= 500 bp)	5,010,493 bp
+Total Number of Contigs (All / >= 500 bp)	121 / 60
+N50 Contig Size	294,640 bp
+L50 Contig Count	7 contigs
+Largest Assembled Contig	513,612 bp
+Assembly GC Content	50.46%
+Genome Fraction Covered (vs. E. coli K-12 MG1655)	87.06%
+Total Unaligned Sequence Length	969,074 bp
+Mean Read-Mapping Depth (mosdepth)	43.89x

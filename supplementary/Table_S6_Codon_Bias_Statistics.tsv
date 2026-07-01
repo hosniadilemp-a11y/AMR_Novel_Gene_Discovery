@@ -1,0 +1,13 @@
+Feature / Metric	Core (N=3,310)	Accessory (N=1,047)	Singleton (N=278)	Acquired AMR (N=12)
+GC Content (%)	51.86% +/- 3.72%	48.49% +/- 6.90%	46.78% +/- 7.86%	50.64% +/- 7.65%
+  Shapiro-Wilk p-value	2.387e-17	1.116e-15	1.119e-04	7.873e-01
+  Mann-Whitney p vs Core	Ref	7.812e-44	8.431e-31	1.000e+00
+  Mann-Whitney p vs AMR	1.000e+00	1.000e+00	9.360e-01	Ref
+GC3 Codon Bias (%)	55.90% +/- 6.63%	50.36% +/- 11.33%	48.03% +/- 12.89%	51.22% +/- 13.45%
+  Shapiro-Wilk p-value	9.872e-10	8.801e-06	7.313e-02	9.705e-01
+  Mann-Whitney p vs Core	Ref	6.269e-50	1.462e-28	4.224e-01
+  Mann-Whitney p vs AMR	4.224e-01	1.000e+00	1.000e+00	Ref
+Gene Length (bp)	981.9 +/- 626.7	940.4 +/- 797.6	677.0 +/- 561.1	811.0 +/- 283.8
+  Shapiro-Wilk p-value	2.824e-25	2.185e-37	7.587e-18	1.919e-01
+  Mann-Whitney p vs Core	Ref	8.179e-05	7.368e-23	1.000e+00
+  Mann-Whitney p vs AMR	1.000e+00	1.000e+00	2.726e-01	Ref
