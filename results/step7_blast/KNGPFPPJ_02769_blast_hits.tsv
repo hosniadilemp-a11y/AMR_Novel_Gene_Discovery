@@ -1,0 +1,201 @@
+Organism	Phylum	Identity%	E-value	QueryCoverage%	Score	Title
+Escherichia coli	Proteobacteria	100.0	0.00e+00	99.7	1872.0	ref|WP_063082608.1| GNAT family N-acetyltransferase [Escherichia coli] >gb|MED9553597.1| hypothetical protein [Escherich
+Escherichia coli	Proteobacteria	100.0	0.00e+00	81.2	1537.0	ref|WP_433268419.1| GNAT family N-acetyltransferase [Escherichia coli] >gb|MGI5748542.1| hypothetical protein [Escherich
+Escherichia coli	Proteobacteria	100.0	3.27e-149	58.7	1105.0	gb|MCS1248782.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	2.03e-142	56.1	1059.0	tpg|HFS2208694.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	7.91e-141	55.6	1049.0	gb|EHZ5664514.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	5.91e-140	55.3	1043.0	gb|EHP5207533.1| hypothetical protein [Escherichia coli]
+Salmonella enterica	Proteobacteria	100.0	3.88e-139	55.0	1037.0	gb|ECH0787765.1| hypothetical protein [Salmonella enterica]
+Escherichia coli	Proteobacteria	100.0	8.32e-130	51.6	975.0	gb|MHJ1634000.1| GNAT family N-acetyltransferase [Escherichia coli]
+Salmonella enterica	Proteobacteria	100.0	1.44e-126	50.4	953.0	gb|EAN4164820.1| hypothetical protein [Salmonella enterica]
+Escherichia coli	Proteobacteria	100.0	3.81e-121	48.4	917.0	gb|EFN7457963.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1868.0	gb|EFB1553690.1| hypothetical protein [Escherichia coli] >gb|EGY1212979.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1867.0	ref|WP_109551133.1| GNAT family N-acetyltransferase [Escherichia coli] >gb|EHL6350586.1| hypothetical protein [Escherich
+Escherichia coli	Proteobacteria	99.7	0.00e+00	95.2	1788.0	gb|MEB6429851.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.6	0.00e+00	75.5	1419.0	gb|EIN2941573.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.5	6.75e-156	61.3	1150.0	gb|MHJ3731101.1| GNAT family N-acetyltransferase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.5	2.35e-150	59.3	1113.0	tpg|HGF1750699.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.5	5.38e-148	58.4	1097.0	tpg|HFO4655923.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.5	5.26e-146	57.8	1084.0	tpg|HFK6463066.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.5	5.77e-144	57.0	1070.0	tpg|HFO8120701.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.5	4.28e-142	56.1	1057.0	gb|EFC7194264.1| hypothetical protein [Escherichia coli] >tpg|HDC0744894.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.5	1.78e-140	55.6	1046.0	gb|EGJ7860890.1| hypothetical protein [Escherichia coli] >gb|EOR7168577.1| hypothetical protein [Escherichia coli] >tpg|
+Escherichia coli	Proteobacteria	99.5	1.33e-139	55.3	1041.0	tpg|HFS3505997.1| hypothetical protein [Escherichia coli]
+Escherichia marmotae	Proteobacteria	99.5	1.03e-138	55.0	1035.0	gb|MEC9697359.1| hypothetical protein [Escherichia marmotae] >gb|MED9384106.1| hypothetical protein [Escherichia marmota
+Escherichia coli	Proteobacteria	99.5	2.05e-137	54.4	1026.0	gb|MHI7258167.1| GNAT family N-acetyltransferase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.5	8.77e-137	54.1	1022.0	gb|EEZ6078633.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.5	8.69e-133	53.3	996.0	ref|WP_251134059.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.5	1.01e-131	52.4	988.0	tpg|HBM2004212.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.5	6.45e-130	52.4	976.0	gb|MBJ1949037.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.5	6.69e-129	52.1	969.0	gb|EES5620035.1| hypothetical protein [Escherichia coli]
+Salmonella enterica	Proteobacteria	99.4	0.00e+00	99.7	1866.0	ref|WP_001417622.1| GNAT family N-acetyltransferase [Escherichia coli] >gb|EAN2206214.1| hypothetical protein [Salmonell
+Escherichia marmotae	Proteobacteria	99.4	0.00e+00	99.7	1865.0	gb|MCM4673927.1| hypothetical protein [Escherichia coli] >gb|MED9053199.1| hypothetical protein [Escherichia marmotae] >
+Escherichia coli	Proteobacteria	99.4	0.00e+00	99.7	1864.0	ref|WP_033806516.1| MULTISPECIES: GNAT family N-acetyltransferase [Escherichia] >gb|EEQ2039564.1| hypothetical protein [
+Escherichia coli	Proteobacteria	99.4	0.00e+00	99.7	1864.0	gb|EHL6315274.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.4	0.00e+00	94.9	1781.0	tpg|HFF3955508.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.4	3.02e-126	50.4	951.0	tpg|HHY1760487.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.4	6.82e-126	51.0	949.0	gb|EEX3458497.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.4	5.07e-124	49.6	936.0	tpg|HFS4021727.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.4	6.31e-120	48.1	909.0	tpg|HIB6952083.1| hypothetical protein [Escherichia coli]
+Salmonella enterica subsp. enterica serovar Newport	Proteobacteria	99.4	1.34e-119	48.1	906.0	tpg|HFG6663904.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Newport]
+Escherichia coli	Proteobacteria	99.4	4.51e-119	47.9	903.0	gb|EER1482017.1| hypothetical protein [Escherichia coli] >gb|MHJ0053008.1| GNAT family N-acetyltransferase [Escherichia 
+Escherichia coli	Proteobacteria	99.4	7.41e-117	47.0	888.0	gb|MHJ2832173.1| GNAT family N-acetyltransferase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.4	3.44e-114	46.2	870.0	tpg|HAX3189967.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.4	3.87e-112	46.2	857.0	gb|EFB6804832.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.4	1.22e-111	45.3	853.0	gb|EER1128518.1| hypothetical protein [Escherichia coli] >tpg|HIB7822410.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.3	0.00e+00	86.6	1629.0	tpg|HDC1116345.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.3	0.00e+00	86.3	1625.0	gb|ENA6243311.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.3	0.00e+00	81.2	1530.0	ref|WP_244576246.1| GNAT family N-acetyltransferase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.3	0.00e+00	78.3	1473.0	tpg|HFO2704215.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1861.0	gb|EJV8346273.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1861.0	gb|EHH6705466.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1861.0	gb|EOO9587023.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1861.0	tpg|HCB8130440.1| hypothetical protein [Escherichia coli] >tpg|HCB9545208.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1860.0	tpg|HAW1277810.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1858.0	gb|EAC2054965.1| hypothetical protein [Escherichia coli] >gb|EFI5218475.1| hypothetical protein [Escherichia coli] >gb|E
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1857.0	gb|EET5224305.1| hypothetical protein [Escherichia coli] >gb|EET7265455.1| hypothetical protein [Escherichia coli] >gb|E
+Escherichia coli	Proteobacteria	99.0	6.75e-147	58.4	1090.0	gb|EJM6900936.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.0	3.97e-146	58.1	1084.0	gb|EFK7098331.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.0	5.49e-141	56.1	1050.0	gb|EFI8170852.1| hypothetical protein [Escherichia coli] >gb|EJD3271342.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.0	2.28e-139	55.6	1039.0	gb|EEU2394177.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1862.0	ref|WP_249826664.1| plasmid segregation protein ParM [Escherichia coli]
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1857.0	gb|MEB6102428.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1852.0	ref|WP_269549824.1| MULTISPECIES: GNAT family N-acetyltransferase [Enterobacteriaceae] >gb|ELR9183476.1| hypothetical pr
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1849.0	gb|EOK1867930.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	98.9	6.18e-135	53.8	1009.0	gb|EEY4065873.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	98.9	1.72e-126	51.0	953.0	gb|EFC2486159.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	98.8	1.80e-121	49.0	919.0	gb|EGO6487727.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	98.8	5.10e-119	48.1	903.0	gb|MHJ4352202.1| GNAT family N-acetyltransferase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1850.0	ref|WP_441102832.1| GNAT family N-acetyltransferase [Escherichia coli] >gb|MGN9301284.1| hypothetical protein [Escherich
+Escherichia albertii	Proteobacteria	98.6	0.00e+00	99.7	1850.0	ref|WP_256877085.1| GNAT family N-acetyltransferase [Escherichia albertii] >gb|MCQ8929177.1| hypothetical protein [Esche
+Escherichia coli	Proteobacteria	98.2	3.03e-117	47.6	891.0	ref|WP_198803832.1| GNAT family N-acetyltransferase [Escherichia coli] >gb|MBJ1951859.1| GNAT family N-acetyltransferase
+Escherichia coli	Proteobacteria	97.8	1.79e-127	52.4	960.0	tpg|HEI2856751.1| hypothetical protein [Escherichia coli]
+Salmonella enterica subsp. enterica serovar Newport	Proteobacteria	97.4	0.00e+00	99.7	1826.0	ref|WP_437151402.1| GNAT family N-acetyltransferase [Salmonella enterica] >gb|MGK7506380.1| hypothetical protein [Salmon
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	95.3	9.97e-115	48.4	875.0	gb|EBM7483156.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Muenchen] >gb|EDS2915117.1| hypotheti
+Salmonella enterica subsp. enterica serovar Agona	Proteobacteria	95.3	1.31e-114	48.4	874.0	gb|EAB0241530.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Agona] >gb|EAW0091499.1| hypothetical
+Salmonella enterica	Proteobacteria	95.3	7.10e-114	48.1	869.0	gb|EBA4157311.1| hypothetical protein [Salmonella enterica] >gb|EDI6385486.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	95.3	6.52e-113	47.9	862.0	gb|EHV1464234.1| hypothetical protein [Salmonella enterica] >gb|EIU8894803.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	95.2	1.48e-111	47.3	853.0	gb|EAS2592757.1| hypothetical protein [Salmonella enterica] >gb|EDQ7322135.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica subsp. enterica serovar Agona	Proteobacteria	95.1	9.66e-125	52.4	942.0	gb|EBW8165641.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Typhimurium var. 5-] >gb|EKQ8386821.1
+Salmonella enterica subsp. enterica serovar Mbandaka	Proteobacteria	95.1	4.51e-124	52.1	937.0	gb|ECH3646018.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Mbandaka]
+Salmonella enterica subsp. enterica serovar Senftenberg	Proteobacteria	95.1	7.00e-123	51.9	929.0	gb|EAO2066159.1| hypothetical protein [Salmonella enterica] >gb|ECW5648247.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica subsp. enterica serovar Agona	Proteobacteria	95.1	3.53e-122	51.6	925.0	gb|EAN1645976.1| hypothetical protein [Salmonella enterica] >gb|EAU3960986.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	95.0	1.92e-121	51.3	920.0	gb|ECI1305340.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Agona] >gb|MDQ7610681.1| hypothetical
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	95.0	2.05e-120	51.0	913.0	gb|ECA0959474.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Give] >gb|ECV6103389.1| hypothetical 
+Salmonella enterica subsp. enterica serovar Give	Proteobacteria	95.0	1.36e-119	50.7	907.0	gb|EDT3213371.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Oranienburg] >gb|EGI7046834.1| hypoth
+Salmonella enterica subsp. enterica serovar Montevideo	Proteobacteria	94.9	1.08e-148	61.5	1103.0	gb|ECS4589183.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Montevideo]
+Salmonella enterica	Proteobacteria	94.9	7.07e-148	61.3	1097.0	gb|EBU1412075.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	94.9	4.87e-119	50.4	904.0	gb|EAM4330174.1| hypothetical protein [Salmonella enterica] >gb|ECR7011496.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Mbandaka	Proteobacteria	94.9	4.15e-118	50.1	897.0	gb|ECB9054810.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Mbandaka]
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	94.9	1.79e-117	49.9	893.0	gb|EBM8519022.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Agona] >gb|EBO6170407.1| hypothetical
+Salmonella enterica	Proteobacteria	94.9	7.32e-117	49.6	889.0	gb|EEG9230034.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Mbandaka] >gb|EGU3991960.1| hypotheti
+Salmonella enterica	Proteobacteria	94.8	3.41e-144	59.8	1072.0	gb|ECW1133432.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	94.8	5.08e-143	59.5	1065.0	gb|ECQ4636983.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	94.8	2.14e-130	54.7	980.0	gb|EAM5898861.1| hypothetical protein [Salmonella enterica] >gb|EBJ9916927.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	94.8	1.25e-129	54.4	975.0	gb|EBD6719888.1| hypothetical protein [Salmonella enterica] >gb|EDD0013379.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica	Proteobacteria	94.8	5.73e-129	54.1	970.0	gb|EAN3583669.1| hypothetical protein [Salmonella enterica] >gb|EBK2629300.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	94.8	3.27e-116	49.3	885.0	gb|EGM6507613.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Mbandaka] >gb|EJY2526321.1| hypotheti
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	94.8	2.69e-115	49.0	878.0	gb|ECW5620986.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Heidelberg] >gb|EDF8162271.1| hypothe
+Salmonella enterica	Proteobacteria	94.7	3.77e-157	64.7	1159.0	gb|EBM0116825.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	94.7	2.95e-156	64.4	1153.0	gb|ECR7038432.1| hypothetical protein [Salmonella enterica] >gb|EIT4047077.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	94.7	1.23e-141	59.0	1055.0	gb|EHA0664524.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Agona] >gb|KTO11505.1| hypothetical p
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	94.7	1.35e-140	58.7	1048.0	gb|ECM7348631.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Typhimurium]
+Salmonella enterica subsp. enterica serovar Agona	Proteobacteria	94.7	9.90e-140	58.4	1042.0	gb|EAM5968805.1| hypothetical protein [Salmonella enterica] >gb|EHD4831034.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	94.7	2.64e-128	53.8	966.0	gb|EHC0329996.1| hypothetical protein [Salmonella enterica] >gb|EIQ1287153.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica	Proteobacteria	94.7	2.08e-127	53.6	960.0	gb|EGJ0655574.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	94.7	1.85e-126	53.3	953.0	gb|ECC0855039.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Agona] >gb|EEK8884262.1| hypothetical
+Salmonella enterica	Proteobacteria	94.7	1.11e-125	53.0	948.0	gb|EBJ8122312.1| hypothetical protein [Salmonella enterica] >gb|EIL2842832.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica	Proteobacteria	94.6	6.56e-139	58.1	1037.0	gb|ECR7196209.1| hypothetical protein [Salmonella enterica] >gb|EGK9303544.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	94.6	3.77e-138	57.8	1032.0	gb|EAQ0674143.1| hypothetical protein [Salmonella enterica] >gb|ECX3649214.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica	Proteobacteria	94.6	1.33e-136	57.3	1022.0	gb|EEK0608756.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Agona] >gb|EIR5554361.1| hypothetical
+Salmonella enterica	Proteobacteria	94.6	5.60e-125	52.7	943.0	gb|EBR4209705.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Uganda	Proteobacteria	94.5	7.80e-136	57.0	1016.0	gb|EAR0513483.1| hypothetical protein [Salmonella enterica] >gb|EAW2014987.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica subsp. enterica serovar Agona	Proteobacteria	94.5	3.23e-135	56.7	1012.0	gb|EDW4159421.1| hypothetical protein [Salmonella enterica subsp. salamae] >gb|EEF9011603.1| hypothetical protein [Salmo
+Salmonella enterica subsp. enterica serovar Uganda	Proteobacteria	94.5	2.12e-134	56.4	1007.0	gb|EAB4100340.1| hypothetical protein [Salmonella enterica] >gb|EBO1196864.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica	Proteobacteria	94.4	1.64e-159	65.8	1175.0	gb|ECE2195955.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Give	Proteobacteria	94.4	8.95e-134	56.1	1003.0	gb|EAA8078800.1| hypothetical protein [Salmonella enterica] >gb|EBX4305966.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica subsp. enterica	Proteobacteria	94.4	4.81e-133	55.8	998.0	gb|EAP2395462.1| hypothetical protein [Salmonella enterica] >gb|EBL5883927.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica subsp. enterica serovar Reading	Proteobacteria	94.4	4.01e-132	55.6	991.0	gb|EAN6989250.1| hypothetical protein [Salmonella enterica] >gb|EAS9009746.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica	Proteobacteria	94.4	4.24e-132	55.6	992.0	ref|WP_258281803.1| GNAT family N-acetyltransferase [Salmonella enterica] >gb|EBK7420547.1| hypothetical protein [Salmon
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	94.4	2.46e-131	55.3	986.0	gb|EAQ6083729.1| hypothetical protein [Salmonella enterica] >gb|EBH9925045.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	94.3	1.43e-130	55.0	981.0	gb|ECR7467884.1| hypothetical protein [Salmonella enterica] >gb|EDI4264661.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica	Proteobacteria	94.1	2.59e-162	67.0	1194.0	gb|ECJ6391140.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Agona	Proteobacteria	94.1	2.10e-136	57.3	1020.0	gb|EBZ0313539.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Agona]
+Salmonella enterica	Proteobacteria	93.9	1.37e-133	56.1	1001.0	gb|EGK5863802.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Agona	Proteobacteria	93.9	3.29e-133	56.1	999.0	tpg|HAB1827198.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Agona]
+Salmonella enterica	Proteobacteria	93.9	1.47e-119	50.7	907.0	gb|ECV9747007.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	93.8	8.44e-130	55.3	976.0	gb|EAV7693431.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	93.5	1.47e-180	74.4	1316.0	tpg|HGB0955356.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Typhimurium]
+Salmonella enterica	Proteobacteria	93.5	7.46e-169	70.1	1238.0	gb|EAN9385731.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	93.3	0.00e+00	80.3	1414.0	gb|EDG1662723.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Typhimurium]
+Salmonella enterica	Proteobacteria	93.3	4.25e-175	72.4	1280.0	gb|EAW3499837.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	93.3	1.47e-173	71.8	1270.0	tpg|HGB1684539.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Typhimurium]
+Salmonella enterica	Proteobacteria	93.2	0.00e+00	79.8	1404.0	gb|EBJ1365747.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	93.2	0.00e+00	79.2	1393.0	gb|ECF8876247.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Mbandaka	Proteobacteria	93.2	1.47e-171	71.2	1256.0	gb|EBZ7474017.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Mbandaka]
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	93.1	0.00e+00	81.8	1433.0	tpg|HGB0887772.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Typhimurium]
+Salmonella enterica	Proteobacteria	93.0	0.00e+00	81.5	1428.0	gb|EDA0855810.1| hypothetical protein [Salmonella enterica]
+Klebsiella oxytoca	Proteobacteria	93.0	5.35e-124	53.0	937.0	gb|MBZ7190615.1| hypothetical protein [Klebsiella oxytoca]
+Citrobacter sedlakii	Proteobacteria	92.9	0.00e+00	99.7	1746.0	tpg|HCA7080972.1| hypothetical protein [Citrobacter sedlakii] >tpg|HCA7137403.1| hypothetical protein [Citrobacter sedla
+Citrobacter amalonaticus	Proteobacteria	92.9	0.00e+00	99.7	1744.0	ref|WP_326975844.1| hypothetical protein [Citrobacter amalonaticus] >gb|MDT7073603.1| hypothetical protein [Citrobacter 
+Salmonella enterica subsp. enterica serovar Mbandaka	Proteobacteria	92.9	0.00e+00	99.7	1741.0	gb|ECT3056801.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Mbandaka]
+Salmonella enterica subsp. enterica serovar Cuckmere	Proteobacteria	92.6	0.00e+00	99.7	1739.0	ref|WP_000059556.1| MULTISPECIES: hypothetical protein [Salmonella] >gb|EOA2412274.1| hypothetical protein [Salmonella e
+Salmonella enterica subsp. enterica serovar Typhi str. AG3	Proteobacteria	92.6	0.00e+00	99.7	1737.0	ref|YP_013295073.1| hypothetical protein [Salmonella phage SopEPhi] >gb|ADX18499.1| hypothetical protein STM474_2850 [Sa
+Salmonella enterica subsp. enterica serovar Agona	Proteobacteria	92.4	0.00e+00	82.3	1434.0	gb|EEN6740833.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Agona]
+Salmonella enterica subsp. enterica serovar Chester	Proteobacteria	92.3	0.00e+00	99.7	1737.0	gb|EPU7107112.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Chester] >tpg|HFG5584576.1| hypotheti
+Salmonella enterica subsp. enterica serovar Chester	Proteobacteria	92.3	0.00e+00	99.7	1736.0	gb|EBN6366003.1| hypothetical protein [Salmonella enterica] >gb|EBQ9754283.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica subsp. enterica serovar Javiana	Proteobacteria	92.3	0.00e+00	99.7	1735.0	gb|EAP7074967.1| hypothetical protein [Salmonella enterica] >gb|ECH8105483.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica subsp. enterica serovar Javiana	Proteobacteria	92.3	0.00e+00	99.7	1735.0	gb|EPN3496151.1| hypothetical protein [Salmonella enterica] >gb|EQD4982805.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica	Proteobacteria	92.3	0.00e+00	99.7	1734.0	gb|ENZ2565595.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Agona	Proteobacteria	92.3	0.00e+00	99.7	1734.0	ref|WP_308302679.1| hypothetical protein [Salmonella enterica] >gb|MDQ7496916.1| hypothetical protein [Salmonella enteri
+Salmonella enterica	Proteobacteria	92.3	0.00e+00	99.7	1734.0	gb|ENO3369339.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Agona	Proteobacteria	92.3	0.00e+00	99.7	1733.0	tpg|HAE1320842.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Agona] >tpg|HAO7990576.1| hypothetic
+Salmonella enterica	Proteobacteria	92.3	0.00e+00	99.7	1733.0	tpg|HAK2003967.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	92.3	0.00e+00	99.7	1733.0	gb|EHI5896596.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Agona	Proteobacteria	92.3	0.00e+00	99.7	1733.0	gb|EJE0058548.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Agona]
+Salmonella enterica subsp. enterica serovar Agona	Proteobacteria	92.3	0.00e+00	99.7	1732.0	gb|ECP4809928.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Agona]
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	92.3	0.00e+00	99.7	1732.0	gb|ECN2205278.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Typhimurium]
+Salmonella enterica	Proteobacteria	92.3	0.00e+00	99.7	1731.0	gb|ELS9034826.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	92.3	0.00e+00	99.7	1730.0	gb|EFS4210379.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	92.3	0.00e+00	99.7	1729.0	gb|EAB4626166.1| hypothetical protein [Salmonella enterica] >gb|ECS2294218.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica subsp. enterica	Proteobacteria	92.3	0.00e+00	99.7	1728.0	gb|ECI4668091.1| hypothetical protein [Salmonella enterica subsp. enterica]
+Salmonella enterica	Proteobacteria	92.3	0.00e+00	99.7	1728.0	gb|ELA4623198.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica	Proteobacteria	92.3	0.00e+00	99.7	1727.0	gb|EAA7342549.1| hypothetical protein [Salmonella enterica] >gb|EBU8835676.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica subsp. enterica serovar Oranienburg	Proteobacteria	92.3	0.00e+00	99.7	1727.0	ref|WP_281778198.1| hypothetical protein [Salmonella enterica] >gb|ENV2462566.1| hypothetical protein [Salmonella enteri
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	92.3	0.00e+00	88.3	1537.0	tpg|HFW1221552.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Typhimurium]
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	92.3	0.00e+00	88.0	1532.0	gb|EBY0234865.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Typhimurium]
+Salmonella enterica	Proteobacteria	92.2	0.00e+00	94.6	1644.0	gb|EAX0417098.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	92.2	0.00e+00	87.5	1523.0	gb|ECC6723821.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	92.2	0.00e+00	83.5	1453.0	gb|EBQ7708045.1| hypothetical protein [Salmonella enterica] >gb|EEH6788788.1| hypothetical protein [Salmonella enterica]
+Klebsiella oxytoca	Proteobacteria	91.7	0.00e+00	99.7	1733.0	gb|MBG2705728.1| hypothetical protein [Klebsiella oxytoca] >tpg|HDX8574074.1| hypothetical protein [Klebsiella oxytoca] 
+Klebsiella oxytoca	Proteobacteria	91.7	0.00e+00	99.7	1731.0	ref|WP_227627887.1| hypothetical protein [Klebsiella oxytoca] >gb|EPZ5002105.1| hypothetical protein [Klebsiella oxytoca
+Escherichia coli	Proteobacteria	91.7	0.00e+00	99.7	1717.0	ref|WP_409388163.1| hypothetical protein [Escherichia coli] >gb|MEB4674224.1| hypothetical protein [Enterobacteriaceae b
+Salmonella enterica subsp. enterica serovar Agona str. SA-3	Proteobacteria	91.6	0.00e+00	84.9	1469.0	gb|ESC31822.1| hypothetical protein SEEACDC3_17301 [Salmonella enterica subsp. enterica serovar Agona str. SA-3]
+Salmonella sp. ZASA478	Proteobacteria	91.6	0.00e+00	81.2	1410.0	ref|WP_023167982.1| hypothetical protein [Salmonella enterica] >gb|ESC34033.1| hypothetical protein SEEACDC2_03952 [Salm
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	91.6	1.02e-115	50.4	882.0	tpg|HGB0016679.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Typhimurium]
+Klebsiella oxytoca	Proteobacteria	91.5	0.00e+00	99.7	1721.0	ref|WP_395347192.1| hypothetical protein [Klebsiella oxytoca] >gb|MFH6697617.1| hypothetical protein [Klebsiella oxytoca
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	91.5	0.00e+00	80.1	1386.0	tpg|HGB5608777.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Typhimurium]
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	91.2	0.00e+00	77.2	1331.0	tpg|HGA7556622.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Typhimurium]
+Salmonella enterica subsp. enterica serovar Agona str. 400095 17	Proteobacteria	90.8	1.38e-174	74.4	1277.0	gb|ESO20013.1| hypothetical protein SEEA9517_15021 [Salmonella enterica subsp. enterica serovar Agona str. 400095 17]
+Salmonella enterica subsp. enterica serovar Ouakam	Proteobacteria	90.5	7.14e-113	50.7	863.0	gb|EBX9975613.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Typhimurium] >gb|ECR6936726.1| hypoth
+Salmonella enterica subsp. enterica serovar Agona	Proteobacteria	90.5	8.96e-113	50.7	862.0	gb|ECS4643676.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Agona]
+Salmonella enterica	Proteobacteria	90.4	0.00e+00	97.7	1670.0	ref|WP_234827191.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Oranienburg	Proteobacteria	90.4	6.83e-112	50.4	857.0	gb|ECB8440435.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Mbandaka] >gb|EDG3800848.1| hypotheti
+Salmonella enterica subsp. enterica serovar Indiana	Proteobacteria	90.3	1.20e-117	52.7	895.0	gb|ECJ9063898.1| hypothetical protein [Salmonella enterica] >gb|EEE1690745.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica	Proteobacteria	90.3	1.76e-116	52.4	887.0	gb|EAO9501811.1| hypothetical protein [Salmonella enterica] >gb|EJS5832449.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica subsp. enterica serovar Indiana	Proteobacteria	90.2	3.95e-115	51.9	878.0	gb|ECR7339944.1| hypothetical protein [Salmonella enterica] >gb|EDN4688107.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica subsp. enterica serovar Agona	Proteobacteria	90.1	2.32e-114	51.6	873.0	gb|EEN7119977.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Agona] >gb|EJT8299172.1| hypothetical
+Salmonella enterica	Proteobacteria	90.1	2.13e-113	51.3	867.0	gb|ECW5019992.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Heidelberg] >gb|EGX4498944.1| hypothe
+Salmonella enterica subsp. enterica serovar Agona str. 392869-1	Proteobacteria	89.5	0.00e+00	97.7	1649.0	ref|WP_023375692.1| hypothetical protein [Salmonella enterica] >gb|ESO20276.1| hypothetical protein SEEA9514_22152 [Salm
+Cedecea lapagei	Other/Unclassified	88.0	0.00e+00	99.7	1635.0	ref|WP_213714992.1| hypothetical protein [Cedecea lapagei]
+Kiritimatiellia bacterium	Other/Unclassified	49.6	1.07e-118	99.7	918.0	tpg|HMO52371.1| N-acetyltransferase [Kiritimatiellia bacterium] >tpg|HMP00562.1| N-acetyltransferase [Kiritimatiellia ba
+Haloferula sp.	Archaea	49.0	4.34e-115	99.7	895.0	gb|MHT8387337.1| N-acetyltransferase [Haloferula sp.]
+Pseudomonas amygdali pv. morsprunorum	Proteobacteria	47.9	3.82e-112	99.7	875.0	ref|WP_122383530.1| GNAT family N-acetyltransferase [Pseudomonas amygdali] >gb|MBI6731015.1| GNAT family N-acetyltransfe
+Pseudomonas amygdali pv. ulmi	Proteobacteria	47.9	4.40e-112	99.7	875.0	ref|WP_057434274.1| GNAT family N-acetyltransferase [Pseudomonas amygdali] >gb|KPZ05882.1| Uncharacterized protein ALO41
+Pseudomonas sp. SORGH_AS_0199	Proteobacteria	47.4	3.25e-113	99.7	882.0	ref|WP_309739253.1| GNAT family N-acetyltransferase [Pseudomonas sp. SORGH_AS_0199] >gb|MDR6230422.1| hypothetical prote
+Ectopseudomonas oleovorans	Proteobacteria	47.4	7.41e-112	99.7	873.0	ref|WP_115946767.1| GNAT family N-acetyltransferase [Ectopseudomonas oleovorans] >gb|RED01300.1| hypothetical protein DF
+Pseudomonas sp. AF03-9	Proteobacteria	47.3	9.21e-115	99.7	892.0	ref|WP_226454870.1| GNAT family N-acetyltransferase [Pseudomonas sp. AF03-9]
+Pseudomonas sp. AL15	Proteobacteria	47.0	6.44e-112	99.7	874.0	ref|WP_098950647.1| MULTISPECIES: GNAT family N-acetyltransferase [unclassified Pseudomonas] >gb|ATN11239.1| N-acetyltra
+Pseudomonas corrugata	Proteobacteria	46.8	3.87e-113	99.7	882.0	ref|WP_313924947.1| GNAT family N-acetyltransferase [Pseudomonas corrugata] >gb|MDU9024222.1| GNAT family N-acetyltransf
+Pseudomonas sp. MWU12-2534b	Proteobacteria	46.5	1.01e-111	99.7	872.0	gb|RBJ81333.1| N-acetyltransferase [Pseudomonas sp. MWU12-2534b]
+Acidiferrobacter thiooxydans	Other/Unclassified	45.7	1.28e-112	99.4	878.0	ref|WP_461287112.1| GNAT family N-acetyltransferase [Acidiferrobacter thiooxydans] >gb|MHB1609721.1| GNAT family N-acety
