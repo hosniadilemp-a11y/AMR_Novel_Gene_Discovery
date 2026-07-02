@@ -1,0 +1,96 @@
+GitHub Repository File Audit for Paper 1
+=========================================
+Manuscript Title: Structure-guided prioritization of divergent virulence and resistance candidates in an open pangenome clinical Escherichia coli isolate
+Isolate: Escherichia coli QA5221 (ST354)
+
+To ensure absolute reproducibility of the analyses and findings presented in the manuscript, the following datasets, alignments, models, and biophysical trajectories must be archived in the GitHub repository (https://github.com/hosni-sassi/AMR_Novel_Gene_Discovery) or registered databases.
+
+1. Genomic Sequences & Assembly Assets
+---------------------------------------
+* Raw Sequencing Reads (Illumina MiSeq 2x250 bp):
+  - NCBI SRA: SRR39314025 (BioProject: PRJNA1481519)
+  - Raw files: QA5221_S16_L001_R1_001.fastq.gz, QA5221_S16_L001_R2_001.fastq.gz
+* De Novo Genome Assembly:
+  - GenBank Accession: GCA_XXXXXX (to be updated on final publication)
+  - FASTA file: QA5221_assembly.fasta (contains 60 contigs >= 500 bp)
+* Annotation Output:
+  - Prokka functional annotation GFF3: QA5221_annotation.gff
+  - Prokka functional annotation GenBank format: QA5221_annotation.gbk
+
+2. Pangenomic & Comparative Surveillance Datasets
+--------------------------------------------------
+* ST354 Clonal Complex Cohort (n = 32):
+  - List of NCBI RefSeq accessions: reference_st354_genomes_list.txt (Table S2)
+  - Panaroo presence/absence matrix: pangenome_matrix_st354.csv
+  - Panaroo core genome alignment FASTA: core_alignment_st354.aln
+* Expanded Global E. coli Cohort (n = 401):
+  - List of RefSeq accessions: global_cohort_genomes_list.txt
+  - Panaroo presence/absence matrix: pangenome_matrix_global.csv
+* GWAS & Statistical Outputs:
+  - GWAS association Fisher's test results: pan_gwas_association_results.csv (Table S11)
+  - Codon bias and base composition statistics: descriptive_stats_partitions.csv (Table S6)
+
+3. 3D Structural Models & Homology Searches
+--------------------------------------------
+* Candidate Predicted 3D Structures (PDB Format):
+  - GNAT_KA27 (KNGPFPPJ_02769) ESMFold model: KNGPFPPJ_02769_esmfold.pdb
+  - Ehly_61 (KNGPFPPJ_00061) ESMFold model: KNGPFPPJ_00061_esmfold.pdb
+  - OAgP_161 (KNGPFPPJ_03161) ESMFold model: KNGPFPPJ_03161_esmfold.pdb
+  - OAT_371 (KNGPFPPJ_04371) AlphaFold3 model: KNGPFPPJ_04371_alphafold3.pdb
+* Target Database Reference Structures:
+  - 1S5K (Salmonella enterica GNAT acetyltransferase)
+  - 2FFY (Escherichia coli ClyA enterohemolysin)
+  - 7M6B (Caldicellulosiruptor bescii Type II methylase Mcbe1)
+  - 7BM8 (Caulobacter crescentus ParB partitioning protein)
+* Structural Homology Foldseek Output:
+  - Foldseek alignment report: foldseek_alignments_candidates.csv (Table S8)
+* AutoDock Vina Docking Configurations:
+  - GNAT_KA27 receptor PDBQT: GNAT_KA27_receptor.pdbqt
+  - Docking grid configuration file: docking_grid_config.txt (Grid Center: X=2.964, Y=2.776, Z=2.588)
+  - Docked ligand poses PDBQT (kanamycin, gentamicin, amikacin, penicillin G, tetracycline, d-glucose): docked_ligands_poses.zip
+
+4. Molecular Dynamics (MD) Simulation Trajectories
+---------------------------------------------------
+* Apo-State 127.78-ns Simulation for GNAT_KA27 (KNGPFPPJ_02769):
+  - OpenMM topology input: solvated_system.pdb
+  - MD production trajectory DCD: md_apo_trajectory.dcd
+  - MD log file (energy, volume, density): md_apo_log.csv
+* Holo-State 20.0-ns Simulation for GNAT_KA27 + Kanamycin:
+  - OpenMM topology input: holo_solvated_system.pdb
+  - MD production trajectory DCD: md_holo_trajectory.dcd
+  - MD log file (energy, volume, density): md_holo_progress.log
+* Apo-State 100.0-ns Simulation for Enterohemolysin Ehly_61 (KNGPFPPJ_00061):
+  - OpenMM topology input: md_00061_solvated.pdb
+  - MD production trajectory DCD: md_00061_trajectory.dcd
+  - MD log file (energy, volume, density): md_00061_progress.csv
+* Apo-State 100.0-ns Simulation for O-antigen Polymerase OAgP_161 (KNGPFPPJ_03161):
+  - OpenMM topology input: md_03161_solvated.pdb
+  - MD production trajectory DCD: md_03161_trajectory.dcd
+  - MD log file (energy, volume, density): md_03161_progress.csv
+
+5. Sequence-Independent Clustering & PLM Analysis
+--------------------------------------------------
+* ESM-2 Model Weights and Embeddings:
+  - Model configurations and local weight mappings: esm2_650m_model_info.json
+  - 1280-dimensional mean-pooled embeddings array: esm2_embeddings_candidates_ref.npy
+  - UMAP and t-SNE coordinates for plotting: esm2_umap_tsne_coordinates.csv
+
+6. Evolutionary Alignments & Phylogenies
+-----------------------------------------
+* GNAT/AAC Superfamily Phylogenetic Tree:
+  - MAFFT multiple sequence alignment: gnat_superfamily_mafft.aln
+  - IQ-TREE Maximum-Likelihood tree: Fig12_GNAT_Phylogenetic_Tree.treefile
+* Core Genome Phylogenetic Tree:
+  - IQ-TREE Maximum-Likelihood tree: Fig04_Core_Phylogeny_Tree.treefile
+
+7. Pipeline Orchestration & Analysis Scripts
+---------------------------------------------
+* Whole-genome assembly script: run_assembly.sh
+* Pangenome Panaroo pipeline: run_panaroo.sh
+* ESMFold high-throughput structural prediction script: predict_structures.py
+* UMAP embedding extraction and clustering script: run_embeddings_umap.py
+* AutoDock Vina docking automation: run_vina_docking.py
+* MM-GBSA free energy calculation script: run_mmgbsa.py
+* OpenMM MD setup and production script: run_openmm_md.py
+* Trajectory analysis script (RMSD, RMSF, Rg, block averaging, PCA, DCCM): analyze_md_trajectory.py
+* Plotting and figure generation script: generate_paper_plots.py
