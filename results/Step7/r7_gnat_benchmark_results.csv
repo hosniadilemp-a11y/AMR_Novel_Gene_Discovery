@@ -1,0 +1,5 @@
+pdb_id,name,organism,substrate,exp_kd_uM,exp_dG_kcal,url,pdb_path,dG_bind,dG_elec,dG_vdW,dG_pol,dG_npol,dG_bind_sd
+1BYO,AAC(3)-VIa (S. enterica),Salmonella enterica,Kanamycin A,8.5,-6.9,https://files.rcsb.org/download/1BYO.pdb,/media/adel/Data/Hosni/openmm_windows_setup/AMR_Work/results/r7_gnat_benchmark/1BYO.pdb,-11.43,-56.05,-21.38,85.59,-4.94,1.12
+1K5V,AAC(6')-APH(2'') (E. faecalis),Enterococcus faecalis,Kanamycin B,12.3,-6.6,https://files.rcsb.org/download/1K5V.pdb,/media/adel/Data/Hosni/openmm_windows_setup/AMR_Work/results/r7_gnat_benchmark/1K5V.pdb,-11.9,-74.96,-19.27,102.52,-3.33,1.11
+4YJD,AAC(6')-Ib (E. coli clinical),Escherichia coli,Tobramycin,5.2,-7.2,https://files.rcsb.org/download/4YJD.pdb,/media/adel/Data/Hosni/openmm_windows_setup/AMR_Work/results/r7_gnat_benchmark/4YJD.pdb,-11.18,-60.48,-16.26,85.74,-4.04,1.17
+GNAT_KA27,GNAT_KA27 (KNGPFPPJ_02769),E. coli QA5221,Kanamycin A,,,,,-23.9,-75.34,-19.91,75.23,-3.89,1.1
