@@ -1,0 +1,22 @@
+{
+  "GNAT_KA27": {
+    "n_residues": 235,
+    "max_sqfluct": 2.864,
+    "mean_sqfluct": 1.637
+  },
+  "Ehly_61": {
+    "n_residues": 505,
+    "max_sqfluct": 2.838,
+    "mean_sqfluct": 1.218
+  },
+  "OAgP_161": {
+    "n_residues": 481,
+    "max_sqfluct": 2.939,
+    "mean_sqfluct": 1.244
+  },
+  "OAT_371": {
+    "n_residues": 984,
+    "max_sqfluct": 2.918,
+    "mean_sqfluct": 1.047
+  }
+}

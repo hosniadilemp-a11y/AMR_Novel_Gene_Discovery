@@ -1,0 +1,9 @@
+{
+  "n_active_site_hbonds": 15,
+  "mean_Leu125_occupancy": 1.8,
+  "mean_Leu187_occupancy": 2.04,
+  "mean_Phe188_occupancy": 0.94,
+  "residence_time_Leu125_ns": 0.31,
+  "residence_time_Leu187_ns": 0.44,
+  "residence_time_Phe188_ns": 0.08
+}

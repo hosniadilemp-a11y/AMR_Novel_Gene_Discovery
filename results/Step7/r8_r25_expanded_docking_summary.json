@@ -1,0 +1,60 @@
+{
+  "n_positives": 4,
+  "n_decoys": 6,
+  "mean_positive_dG": -22.7,
+  "mean_decoy_dG": -11.82,
+  "ddG": -10.87,
+  "p_value": 1e-06,
+  "compounds": [
+    {
+      "name": "Kanamycin",
+      "class": "Positive",
+      "dG_bind": -23.64
+    },
+    {
+      "name": "Amikacin",
+      "class": "Positive",
+      "dG_bind": -22.8
+    },
+    {
+      "name": "Gentamicin",
+      "class": "Positive",
+      "dG_bind": -22.17
+    },
+    {
+      "name": "Streptomycin",
+      "class": "Positive",
+      "dG_bind": -22.17
+    },
+    {
+      "name": "Penicillin G",
+      "class": "Decoy",
+      "dG_bind": -14.0
+    },
+    {
+      "name": "D-Glucose",
+      "class": "Decoy",
+      "dG_bind": -11.96
+    },
+    {
+      "name": "Tetracycline",
+      "class": "Decoy",
+      "dG_bind": -10.45
+    },
+    {
+      "name": "Ciprofloxacin",
+      "class": "Decoy",
+      "dG_bind": -12.91
+    },
+    {
+      "name": "Chloramphenicol",
+      "class": "Decoy",
+      "dG_bind": -10.43
+    },
+    {
+      "name": "Ampicillin",
+      "class": "Decoy",
+      "dG_bind": -11.19
+    }
+  ]
+}
