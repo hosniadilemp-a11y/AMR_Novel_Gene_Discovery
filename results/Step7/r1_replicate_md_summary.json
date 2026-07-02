@@ -1,0 +1,20 @@
+{
+  "GNAT_KA27": {
+    "n_replicates": 3,
+    "mean_rmsd_A": 2.25,
+    "sd_A": 0.06,
+    "block_sem_A": 0.0074
+  },
+  "Ehly_61": {
+    "n_replicates": 3,
+    "mean_rmsd_A": 5.81,
+    "sd_A": 0.13,
+    "block_sem_A": 0.0201
+  },
+  "OAgP_161": {
+    "n_replicates": 3,
+    "mean_rmsd_A": 2.73,
+    "sd_A": 0.08,
+    "block_sem_A": 0.0121
+  }
+}

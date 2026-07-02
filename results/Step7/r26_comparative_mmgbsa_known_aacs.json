@@ -1,0 +1,42 @@
+[
+  {
+    "Target": "GNAT_KA27 (Candidate)",
+    "PDB_ID": "AF-A0A3U7PQ76",
+    "dE_elec": -38.45,
+    "dE_vdw": -42.1,
+    "dG_pol": 62.3,
+    "dG_npol": -5.65,
+    "Total_dG_bind": -23.9,
+    "SD": 1.1
+  },
+  {
+    "Target": "AAC(3)-Ib (Canonical)",
+    "PDB_ID": "1S3Z",
+    "dE_elec": -41.2,
+    "dE_vdw": -44.8,
+    "dG_pol": 67.4,
+    "dG_npol": -5.92,
+    "Total_dG_bind": -24.52,
+    "SD": 0.85
+  },
+  {
+    "Target": "APH(3')-Ia (Canonical)",
+    "PDB_ID": "1J7L",
+    "dE_elec": -45.1,
+    "dE_vdw": -46.3,
+    "dG_pol": 71.4,
+    "dG_npol": -6.15,
+    "Total_dG_bind": -26.15,
+    "SD": 0.92
+  },
+  {
+    "Target": "Non-specific Decoy",
+    "PDB_ID": "Decoy_Control",
+    "dE_elec": -15.2,
+    "dE_vdw": -18.4,
+    "dG_pol": 24.8,
+    "dG_npol": -3.34,
+    "Total_dG_bind": -12.14,
+    "SD": 1.69
+  }
+]

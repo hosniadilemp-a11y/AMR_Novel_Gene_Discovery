@@ -1,0 +1,5 @@
+Target,PDB_ID,dE_elec,dE_vdw,dG_pol,dG_npol,Total_dG_bind,SD
+GNAT_KA27 (Candidate),AF-A0A3U7PQ76,-38.45,-42.1,62.3,-5.65,-23.9,1.1
+AAC(3)-Ib (Canonical),1S3Z,-41.2,-44.8,67.4,-5.92,-24.52,0.85
+APH(3')-Ia (Canonical),1J7L,-45.1,-46.3,71.4,-6.15,-26.15,0.92
+Non-specific Decoy,Decoy_Control,-15.2,-18.4,24.8,-3.34,-12.14,1.69

@@ -1,0 +1,42 @@
+[
+  {
+    "Variant": "Wild-Type (WT)",
+    "Receptor_dG": -14250.3,
+    "Ligand_dG": -45.2,
+    "Complex_dG": -14319.4,
+    "Total_dG_bind": -23.9,
+    "ddG_mut": 0.0
+  },
+  {
+    "Variant": "Leu125A",
+    "Receptor_dG": -14248.1,
+    "Ligand_dG": -45.2,
+    "Complex_dG": -14314.3,
+    "Total_dG_bind": -21.0,
+    "ddG_mut": 2.9
+  },
+  {
+    "Variant": "Leu187A",
+    "Receptor_dG": -14247.3,
+    "Ligand_dG": -45.2,
+    "Complex_dG": -14312.73,
+    "Total_dG_bind": -20.23,
+    "ddG_mut": 3.67
+  },
+  {
+    "Variant": "Phe188A",
+    "Receptor_dG": -14245.8,
+    "Ligand_dG": -45.2,
+    "Complex_dG": -14309.65,
+    "Total_dG_bind": -18.65,
+    "ddG_mut": 5.25
+  },
+  {
+    "Variant": "Triple Mutant (L125A/L187A/F188A)",
+    "Receptor_dG": -14239.1,
+    "Ligand_dG": -45.2,
+    "Complex_dG": -14296.38,
+    "Total_dG_bind": -12.08,
+    "ddG_mut": 11.82
+  }
+]

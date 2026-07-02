@@ -1,0 +1,22 @@
+{
+  "GNAT_KA27": {
+    "mean_plddt": 87.24216524216524,
+    "mean_pae_angstrom": 6.699430199430199,
+    "active_site_pae_angstrom": 4.2427142857142846
+  },
+  "Ehly_61": {
+    "mean_plddt": 88.39714285714285,
+    "mean_pae_angstrom": 6.400685714285714,
+    "active_site_pae_angstrom": 6.400685714285714
+  },
+  "OAgP_161": {
+    "mean_plddt": 80.58870967741936,
+    "mean_pae_angstrom": 8.57279569892473,
+    "active_site_pae_angstrom": 8.57279569892473
+  },
+  "OAT_371": {
+    "mean_plddt": 84.19765243902438,
+    "mean_pae_angstrom": 17.995678271035757,
+    "active_site_pae_angstrom": 17.995678271035757
+  }
+}

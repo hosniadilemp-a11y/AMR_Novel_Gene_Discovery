@@ -1,0 +1,201 @@
+Organism	Phylum	Identity%	E-value	QueryCoverage%	Score	Title
+Escherichia coli RDEC-1 (10f)	Proteobacteria	100.0	0.00e+00	99.7	1881.0	ref|WP_001004415.1| RecT family recombinase [Escherichia coli] >gb|EAM7854967.1| enterohemolysin [Salmonella enterica] >
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1877.0	gb|EKQ0554029.1| recombinase RecT [Escherichia coli] >gb|ENF3341686.1| recombinase RecT [Escherichia coli] >gb|ENO175958
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1877.0	tpg|HGC4035771.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1876.0	gb|EHH2639098.1| recombinase RecT [Escherichia coli] >gb|EIQ4555074.1| recombinase RecT [Escherichia coli] >gb|EIS678866
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1876.0	ref|WP_258784093.1| RecT family recombinase [Escherichia coli] >gb|MCS0750136.1| recombinase RecT [Escherichia coli] >tp
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1876.0	gb|MFV2912810.1| RecT family recombinase [Escherichia coli] >gb|MFV2996131.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1876.0	ref|WP_174617238.1| RecT family recombinase [Escherichia coli] >gb|QKQ16213.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1875.0	ref|WP_021517972.1| RecT family recombinase [Escherichia coli] >gb|EFN7206532.1| enterohemolysin [Escherichia coli H1] >
+Salmonella enterica subsp. enterica serovar Typhimurium	Proteobacteria	99.7	0.00e+00	99.7	1874.0	gb|EMC3550956.1| recombinase RecT [Salmonella enterica] >gb|ENE1217807.1| recombinase RecT [Salmonella enterica] >gb|EPF
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1873.0	gb|EQA4463223.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1872.0	tpg|HFU8032432.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.1	1864.0	ref|WP_139502399.1| RecT family recombinase, partial [Escherichia coli]
+Escherichia coli	Proteobacteria	99.4	0.00e+00	99.7	1874.0	tpg|HFB2118783.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	99.4	0.00e+00	99.7	1873.0	gb|EIE2981756.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	99.4	0.00e+00	99.7	1873.0	tpg|HAY3968536.1| recombinase RecT [Escherichia coli] >tpg|HCI8386939.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	99.4	0.00e+00	99.7	1872.0	gb|EFN4638630.1| recombinase RecT [Escherichia coli] >gb|MCV0498034.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	99.4	0.00e+00	99.7	1872.0	ref|WP_258272810.1| RecT family recombinase [Escherichia coli] >gb|EEX3244843.1| recombinase RecT [Escherichia coli] >gb
+Escherichia coli	Proteobacteria	99.4	0.00e+00	99.7	1872.0	gb|EME9328388.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	99.4	0.00e+00	99.7	1872.0	gb|EGM8288340.1| recombinase RecT [Escherichia coli] >tpg|HGT4968317.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.4	0.00e+00	99.7	1870.0	ref|WP_218074613.1| RecT family recombinase [Escherichia coli] >gb|EPS2529456.1| RecT family recombinase [Escherichia co
+Escherichia coli	Proteobacteria	99.4	0.00e+00	99.7	1870.0	gb|EOK2605737.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.4	0.00e+00	99.7	1870.0	ref|WP_001774814.1| RecT family recombinase [Escherichia coli] >gb|EPA7338994.1| RecT family recombinase [Escherichia co
+Escherichia coli	Proteobacteria	99.4	0.00e+00	99.7	1870.0	ref|WP_137594376.1| RecT family recombinase [Escherichia coli] >gb|EGE6594003.1| recombinase RecT [Escherichia coli] >db
+Escherichia coli	Proteobacteria	99.4	0.00e+00	99.7	1870.0	tpg|HDY0954997.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	99.4	0.00e+00	99.7	1870.0	ref|WP_159375964.1| RecT family recombinase [Escherichia coli] >gb|EKR1853209.1| recombinase RecT [Salmonella enterica s
+Escherichia coli	Proteobacteria	99.4	0.00e+00	99.7	1868.0	ref|WP_001004414.1| MULTISPECIES: RecT family recombinase [Escherichia] >gb|EFA4172267.1| recombinase RecT [Escherichia 
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1869.0	gb|EJQ6702019.1| recombinase RecT [Escherichia coli]
+Salmonella enterica subsp. enterica serovar Typhi	Proteobacteria	99.1	0.00e+00	99.7	1868.0	gb|AYR55719.1| hypothetical protein SM205186_07241 [Salmonella enterica subsp. enterica serovar Typhi] >gb|AYT55959.1| h
+Salmonella enterica subsp. enterica serovar Typhi str. 404ty	Proteobacteria	99.1	0.00e+00	99.7	1867.0	ref|WP_001004417.1| MULTISPECIES: RecT family recombinase [Enterobacteriaceae] >pir|AG0739| conserved hypothetical prote
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1866.0	gb|EFB9585711.1| enterohemolysin [Escherichia coli] >gb|EHP8172390.1| recombinase RecT [Escherichia coli] >gb|EIQ0387431
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1866.0	gb|EEX8906054.1| recombinase RecT [Escherichia coli] >gb|EOT2533872.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1866.0	ref|WP_089619307.1| RecT family recombinase [Escherichia coli] >gb|EFN8596938.1| enterohemolysin [Escherichia coli O79:H
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1866.0	gb|MBF5680953.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1865.0	tpg|HFZ5864736.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1865.0	gb|ENC1449304.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1865.0	tpg|HDS0028005.1| recombinase RecT [Escherichia coli] >tpg|HDS0127321.1| recombinase RecT [Escherichia coli] >tpg|HDS014
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1865.0	ref|WP_289176267.1| RecT family recombinase [Escherichia coli] >gb|EFM7833696.1| recombinase RecT [Escherichia coli] >gb
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1864.0	ref|WP_045145111.1| RecT family recombinase [Escherichia coli] >gb|EFB8546476.1| recombinase RecT [Escherichia coli] >gb
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1864.0	gb|EJG9985295.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1864.0	gb|EFO2458227.1| enterohemolysin [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1864.0	gb|EOX7756147.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1864.0	tpg|DAE12488.1| MAG TPA: RecT protein [Podoviridae sp. ct3k57] >tpg|HAW8319254.1| recombinase RecT [Escherichia coli] >t
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1863.0	gb|EFU6055080.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1863.0	gb|MBB7219510.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1863.0	gb|EFG1346913.1| recombinase RecT [Escherichia coli] >gb|MCD4235598.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1862.0	ref|WP_464963958.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1862.0	tpg|HBC5254662.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1862.0	ref|WP_089695401.1| RecT family recombinase [Escherichia coli] >gb|EFJ3313576.1| recombinase RecT [Escherichia coli] >gb
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1862.0	tpg|HAU8824609.1| recombinase RecT [Escherichia coli]
+Salmonella enterica subsp. enterica serovar Typhi	Proteobacteria	99.1	0.00e+00	99.4	1861.0	gb|ECN3489585.1| recombinase RecT [Salmonella enterica subsp. enterica serovar Typhi] >gb|MIO83513.1| enterohemolysin [S
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1861.0	gb|EKP3210301.1| recombinase RecT [Escherichia coli] >gb|ELW2700004.1| recombinase RecT [Escherichia coli] >gb|ELX005367
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.7	1861.0	gb|MCA7399450.1| recombinase RecT [Escherichia coli] >gb|MCA7494176.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	99.1	0.00e+00	99.4	1858.0	ref|WP_436918931.1| RecT family recombinase [Escherichia coli]
+Salmonella enterica	Proteobacteria	99.1	0.00e+00	99.1	1856.0	tpg|HCI7069243.1| recombinase RecT [Salmonella enterica]
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1865.0	tpg|HDC4717080.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1865.0	gb|EER1545940.1| recombinase RecT [Escherichia coli] >gb|EER5927739.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1865.0	gb|EFH9505740.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1864.0	gb|ENM7326622.1| recombinase RecT [Escherichia coli] >gb|MBA8290749.1| recombinase RecT [Escherichia coli] >gb|MED933227
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1863.0	ref|WP_165463876.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1863.0	tpg|HFO8079037.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1862.0	gb|ENG8642935.1| recombinase RecT [Escherichia coli] >gb|EPR6206924.1| RecT family recombinase [Escherichia coli] >gb|MB
+Salmonella enterica subsp. enterica serovar Sandiego	Proteobacteria	98.9	0.00e+00	99.7	1862.0	gb|EBG2415144.1| recombinase RecT [Salmonella enterica subsp. enterica serovar Sandiego]
+Salmonella enterica subsp. enterica serovar Typhi	Proteobacteria	98.9	0.00e+00	99.7	1862.0	tpg|HDM8464302.1| recombinase RecT [Salmonella enterica subsp. enterica serovar Typhi]
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1862.0	ref|WP_235175216.1| RecT family recombinase [Escherichia coli] >tpg|HAJ1335349.1| enterohemolysin [Escherichia coli] >tp
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1862.0	ref|WP_490392454.1| RecT family recombinase [Escherichia coli] >gb|EGD9541241.1| enterohemolysin [Escherichia coli] >gb|
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1862.0	ref|WP_072657268.1| MULTISPECIES: RecT family recombinase [Enterobacteriaceae] >gb|EEV5905981.1| enterohemolysin [Escher
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1862.0	ref|WP_001004413.1| RecT family recombinase [Escherichia coli] >gb|EFW7512780.1| recombinase RecT [Shigella sonnei] >gb|
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1862.0	ref|WP_396013742.1| RecT family recombinase [Escherichia coli] >gb|EFC5428431.1| recombinase RecT [Escherichia coli] >gb
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1861.0	tpg|HAU9492675.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1861.0	gb|QML36786.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1861.0	ref|WP_425322779.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1861.0	ref|WP_001004416.1| RecT family recombinase [Escherichia coli] >gb|EGI41466.1| gifsy-2 prophage RecT [Escherichia coli T
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1860.0	tpg|HHG2470527.1| RecT family recombinase [Escherichia coli]
+Salmonella enterica subsp. enterica serovar Typhi str. CT18	Proteobacteria	98.9	0.00e+00	99.7	1860.0	tpg|HAD4449895.1| enterohemolysin [Salmonella enterica subsp. enterica serovar Typhi str. CT18] >tpg|HAD5480688.1| enter
+Actinobacillus phage vB_Apl-pPE4	Firmicutes	98.9	0.00e+00	99.7	1860.0	ref|WP_001004422.1| MULTISPECIES: RecT family recombinase [Enterobacteriaceae] >gb|EEZ5885367.1| recombinase RecT [Esche
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1859.0	gb|EGK3661153.1| recombinase RecT [Escherichia coli] >gb|EOZ5282848.1| RecT family recombinase [Escherichia coli] >tpg|H
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1859.0	ref|WP_032083636.1| RecT family recombinase [Escherichia coli] >gb|ECV5680946.1| recombinase RecT [Salmonella enterica s
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1858.0	ref|WP_175085780.1| RecT family recombinase [Escherichia coli] >gb|EER6548014.1| recombinase RecT [Escherichia coli] >gb
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1858.0	ref|WP_258304598.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1858.0	ref|WP_001004412.1| RecT family recombinase [Escherichia coli] >gb|ENY7548309.1| RecT family recombinase [Salmonella ent
+Escherichia coli KTE66	Proteobacteria	98.9	0.00e+00	99.7	1857.0	ref|WP_001559051.1| RecT family recombinase [Escherichia coli] >gb|EFM6085383.1| recombinase RecT [Escherichia coli] >gb
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.4	1857.0	gb|EFG4705506.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.7	1856.0	tpg|HCN6543049.1| recombinase RecT [Escherichia coli]
+Salmonella enterica	Proteobacteria	98.9	0.00e+00	99.7	1856.0	gb|EAN4315961.1| enterohemolysin [Salmonella enterica] >gb|EAS4838531.1| enterohemolysin [Salmonella enterica] >gb|EAS78
+Escherichia coli	Proteobacteria	98.9	0.00e+00	99.4	1854.0	ref|WP_137581443.1| RecT family recombinase [Escherichia coli] >gb|EPB1988926.1| RecT family recombinase [Escherichia co
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1861.0	gb|EJQ7086032.1| recombinase RecT [Escherichia coli] >gb|EKK6379927.1| recombinase RecT [Escherichia coli] >gb|EOT897239
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1860.0	gb|ENI2212285.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1860.0	ref|WP_089586717.1| RecT family recombinase [Escherichia coli] >gb|ENW9227306.1| RecT family recombinase [Escherichia co
+Escherichia coli O145:NM str. 2012C-4477	Proteobacteria	98.6	0.00e+00	99.7	1859.0	ref|WP_001004423.1| RecT family recombinase [Escherichia coli] >gb|EES2575514.1| recombinase RecT [Escherichia coli O103
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1859.0	gb|MCN3073265.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1859.0	ref|WP_102353821.1| RecT family recombinase [Escherichia coli] >gb|EIY6165230.1| recombinase RecT [Escherichia coli] >gb
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1859.0	ref|WP_097415567.1| RecT family recombinase [Escherichia coli] >gb|EFA4031035.1| recombinase RecT [Escherichia coli O108
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1859.0	ref|WP_052906010.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1859.0	ref|WP_311235970.1| RecT family recombinase [Escherichia coli] >tpg|HDN1310759.1| recombinase RecT [Escherichia coli]
+Salmonella enterica	Proteobacteria	98.6	0.00e+00	99.7	1858.0	gb|ELV3520377.1| recombinase RecT [Salmonella enterica]
+uncultured Escherichia sp.	Proteobacteria	98.6	0.00e+00	99.7	1858.0	ref|WP_289771539.1| RecT family recombinase [uncultured Escherichia sp.]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1858.0	ref|WP_167784450.1| RecT family recombinase [Escherichia coli] >gb|EKR0911682.1| recombinase RecT [Escherichia coli] >gb
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1858.0	gb|EFB3060861.1| recombinase RecT [Escherichia coli] >gb|EFE1431802.1| recombinase RecT [Escherichia coli] >gb|EFO188493
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1858.0	ref|WP_473258028.1| RecT family recombinase [Escherichia coli] >gb|MHJ7636060.1| RecT family recombinase [Escherichia co
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1858.0	ref|WP_472998422.1| RecT family recombinase [Escherichia coli] >gb|MHJ4653911.1| enterohemolysin [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1857.0	gb|EHR1194306.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1857.0	ref|WP_074517215.1| RecT family recombinase [Escherichia coli] >tpg|HDW6576754.1| recombinase RecT [Salmonella enterica 
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1857.0	gb|MCW7248314.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1857.0	gb|EFO9003821.1| recombinase RecT [Escherichia coli] >gb|ENM7396833.1| recombinase RecT [Escherichia coli] >tpg|HEI36326
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1857.0	ref|WP_432433099.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1857.0	tpg|HCS6899892.1| recombinase RecT [Escherichia coli]
+Escherichia albertii	Proteobacteria	98.6	0.00e+00	99.7	1857.0	ref|WP_137647565.1| RecT family recombinase [Escherichia albertii]
+Escherichia coli O103:H2	Proteobacteria	98.6	0.00e+00	99.7	1857.0	ref|WP_001004419.1| RecT family recombinase [Escherichia coli] >gb|EBB4754389.1| enterohemolysin [Salmonella enterica su
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1857.0	gb|EPD9561680.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	gb|EFN9125322.1| enterohemolysin [Escherichia coli] >gb|EFO5343023.1| recombinase RecT [Escherichia coli] >gb|MBB9171862
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	ref|WP_483866769.1| RecT family recombinase [Escherichia coli] >gb|END1416064.1| recombinase RecT [Escherichia coli] >gb
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	ref|WP_105290191.1| RecT family recombinase [Escherichia sp. MOD1-EC6842] >tpg|HGF3847349.1| RecT family recombinase [Es
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	ref|WP_262185389.1| RecT family recombinase [Escherichia coli] >gb|EPQ8348486.1| RecT family recombinase [Escherichia co
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	tpg|HAX1645018.1| recombinase RecT [Escherichia coli] >tpg|HBQ4316696.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	ref|WP_057107055.1| RecT family recombinase [Escherichia coli] >gb|EFB1901379.1| recombinase RecT [Escherichia coli] >gb
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	gb|EOW2882700.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	tpg|HIM2925869.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	ref|WP_137422283.1| RecT family recombinase [Escherichia coli] >gb|EOK6713483.1| RecT family recombinase [Escherichia co
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	ref|WP_087893209.1| RecT family recombinase [Escherichia coli] >gb|OWD84282.1| enterohemolysin [Escherichia coli] >gb|RC
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	gb|EEU4461469.1| recombinase RecT [Escherichia coli] >gb|EEY8710494.1| recombinase RecT [Escherichia coli] >gb|EFH151440
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	ref|WP_121863361.1| RecT family recombinase [Escherichia coli] >gb|MBA0919237.1| recombinase RecT [Escherichia coli] >gb
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	ref|WP_112030073.1| RecT family recombinase [Escherichia coli] >gb|MDM9308641.1| RecT family recombinase [Escherichia co
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	gb|EFH1608006.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	ref|WP_488377405.1| RecT family recombinase [Escherichia coli] >gb|MHV2924275.1| RecT family recombinase [Escherichia co
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	gb|EFP2085189.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	ref|WP_097766030.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	ref|WP_089570033.1| RecT family recombinase [Escherichia coli] >gb|EFA4189912.1| recombinase RecT [Escherichia coli O128
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	ref|WP_160337999.1| RecT family recombinase [Escherichia coli] >gb|EKP2503294.1| recombinase RecT [Escherichia coli] >gb
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	gb|EPV4607495.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	ref|WP_407234839.1| RecT family recombinase [Escherichia coli] >gb|EKR7603765.1| recombinase RecT [Escherichia coli] >tp
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	tpg|HFH2612265.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	ref|WP_001526952.1| MULTISPECIES: RecT family recombinase [Escherichia] >gb|EEZ5983026.1| recombinase RecT [Escherichia 
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1856.0	gb|EFI4072845.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1855.0	gb|ELU2842137.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1855.0	gb|EHX9026741.1| recombinase RecT [Escherichia coli] >gb|EOW9679432.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1855.0	tpg|HBH7742573.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1855.0	tpg|HAL7304599.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1855.0	gb|EFH3487469.1| enterohemolysin [Escherichia coli] >gb|EOJ4930051.1| RecT family recombinase [Escherichia coli] >gb|EPX
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1855.0	gb|EJH1947608.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1855.0	gb|EFI6451107.1| recombinase RecT [Escherichia coli] >gb|EFI6908352.1| recombinase RecT [Escherichia coli] >gb|EFI698927
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1855.0	ref|WP_332832441.1| RecT family recombinase [Escherichia coli] >tpg|HBD5376517.1| recombinase RecT [Escherichia coli] >t
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1855.0	ref|WP_001004421.1| RecT family recombinase [Escherichia coli] >gb|EPA7396229.1| RecT family recombinase [Escherichia co
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1855.0	tpg|HBB3079185.1| recombinase RecT [Escherichia coli] >tpg|HBB3138201.1| recombinase RecT [Escherichia coli] >tpg|HBB325
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1855.0	ref|WP_338301930.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1855.0	gb|EFE0377115.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1855.0	gb|EIC3242703.1| recombinase RecT [Escherichia coli] >gb|EPB2803952.1| RecT family recombinase [Escherichia coli] >tpg|H
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1855.0	tpg|HFP2870577.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1855.0	tpg|HCL9315696.1| recombinase RecT [Escherichia coli]
+Escherichia marmotae	Proteobacteria	98.6	0.00e+00	99.7	1855.0	ref|WP_187221792.1| MULTISPECIES: RecT family recombinase [Escherichia] >gb|EFA5171683.1| enterohemolysin [Escherichia c
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1855.0	ref|WP_120145590.1| RecT family recombinase [Escherichia coli] >gb|RJX98674.1| enterohemolysin [Escherichia coli] >tpg|H
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1855.0	tpg|HCW2829668.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1855.0	gb|EFE3851011.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1854.0	ref|WP_282843182.1| RecT family recombinase [Escherichia coli] >gb|WHH06683.1| recombinase RecT [Escherichia coli]
+Salmonella enterica subsp. enterica serovar Concord	Proteobacteria	98.6	0.00e+00	99.7	1854.0	tpg|HDP0339547.1| recombinase RecT [Salmonella enterica subsp. enterica serovar Concord] >tpg|HDP0422072.1| recombinase 
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1854.0	gb|ELJ3846181.1| recombinase RecT [Escherichia coli] >gb|ENL3143657.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1854.0	gb|MGN9537453.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1854.0	gb|ENC4646229.1| recombinase RecT [Escherichia coli] >gb|EOT8355801.1| RecT family recombinase [Escherichia coli]
+Escherichia marmotae	Proteobacteria	98.6	0.00e+00	99.7	1854.0	gb|MED9112772.1| RecT family recombinase [Escherichia marmotae]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1854.0	gb|EEY9724979.1| recombinase RecT [Escherichia coli] >gb|EPI9180509.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1854.0	gb|EPX0454672.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1854.0	ref|WP_044805264.1| RecT family recombinase [Escherichia coli] >gb|EEQ2510809.1| recombinase RecT [Escherichia coli] >gb
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1853.0	gb|EIQ2090062.1| recombinase RecT [Escherichia coli] >gb|EIQ2269795.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1853.0	gb|ENB3546634.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1853.0	gb|MBS8495480.1| recombinase RecT [Escherichia coli] >tpg|HAU9075775.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1853.0	gb|EHT4170131.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1853.0	tpg|HGV0522129.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1853.0	gb|EHR8727734.1| recombinase RecT [Escherichia coli] >tpg|HCQ2822126.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1853.0	tpg|HEI1500848.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1853.0	gb|EPD8460371.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1853.0	gb|EJW6130434.1| recombinase RecT [Escherichia coli] >gb|EKR9792721.1| recombinase RecT [Escherichia coli] >gb|EKR980264
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1853.0	gb|EKH2251786.1| recombinase RecT [Escherichia coli] >gb|EOU1590734.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1853.0	tpg|HFG4149782.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1853.0	ref|WP_240767216.1| RecT family recombinase [Escherichia coli] >gb|UMS18034.1| enterohemolysin [Escherichia coli]
+Escherichia coli	Proteobacteria	98.6	0.00e+00	99.7	1853.0	gb|EFM3569375.1| recombinase RecT [Escherichia coli] >gb|EOL9883750.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1858.0	ref|WP_103899817.1| RecT family recombinase [Escherichia coli] >gb|EEC7221578.1| recombinase RecT [Escherichia coli O145
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1856.0	gb|EJP6494727.1| recombinase RecT [Escherichia coli] >gb|EPZ9804229.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1855.0	ref|WP_064560383.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1855.0	ref|WP_112020345.1| RecT family recombinase [Escherichia coli] >emb|SQP90645.1| putative enterohemolysin [Escherichia co
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1855.0	tpg|HIA3649259.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1855.0	gb|EPJ2571626.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1855.0	gb|EPO7455064.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1855.0	gb|ELD8891420.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1855.0	gb|MCW7442061.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1854.0	gb|EPD9306039.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1854.0	gb|EGQ7337291.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1854.0	gb|EFT2434246.1| recombinase RecT [Escherichia coli] >tpg|HCX7377565.1| recombinase RecT [Escherichia coli] >tpg|HCX7382
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1854.0	gb|EFN0693679.1| recombinase RecT [Escherichia coli]
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1854.0	ref|WP_115799852.1| RecT family recombinase [Escherichia coli] >gb|EEG9510590.1| recombinase RecT [Escherichia coli] >gb
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1854.0	gb|EPM3251919.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1854.0	gb|EPO5935866.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1854.0	ref|WP_027663422.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1854.0	ref|WP_155851366.1| RecT family recombinase [Escherichia coli] >gb|EJB8806437.1| recombinase RecT [Escherichia coli] >gb
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1854.0	gb|EER4183338.1| recombinase RecT [Escherichia coli] >gb|EES2961849.1| recombinase RecT [Escherichia coli] >gb|EET309418
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1853.0	ref|WP_001004418.1| MULTISPECIES: RecT family recombinase [Escherichia] >gb|EKQ3464538.1| recombinase RecT [Escherichia 
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1853.0	tpg|HFK1284460.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1853.0	ref|WP_332382043.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1853.0	ref|WP_089616097.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1853.0	tpg|HII9041554.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.3	0.00e+00	99.7	1853.0	gb|EOV4712045.1| RecT family recombinase [Escherichia coli]
+Escherichia coli	Proteobacteria	98.0	0.00e+00	99.7	1854.0	dbj|GAB0728414.1| recombinase RecT [Escherichia coli]

@@ -1,0 +1,9 @@
+{
+  "n_snapshots": 10,
+  "mean_dG_bind_kcal_mol": -23.08,
+  "sd_dG_bind_kcal_mol": 0.56,
+  "range_dG_bind": [
+    -23.83,
+    -22.16
+  ]
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "Gene_ID": "KNGPFPPJ_00084",
+    "Max_Foldseek_TM_Score": 0.3251,
+    "Pass_Threshold_0.50": false
+  },
+  {
+    "Gene_ID": "KNGPFPPJ_00091",
+    "Max_Foldseek_TM_Score": 0.2639,
+    "Pass_Threshold_0.50": false
+  },
+  {
+    "Gene_ID": "KNGPFPPJ_00097",
+    "Max_Foldseek_TM_Score": 0.2902,
+    "Pass_Threshold_0.50": false
+  },
+  {
+    "Gene_ID": "KNGPFPPJ_00103",
+    "Max_Foldseek_TM_Score": 0.2948,
+    "Pass_Threshold_0.50": false
+  },
+  {
+    "Gene_ID": "KNGPFPPJ_00106",
+    "Max_Foldseek_TM_Score": 0.2716,
+    "Pass_Threshold_0.50": false
+  },
+  {
+    "Gene_ID": "KNGPFPPJ_00107",
+    "Max_Foldseek_TM_Score": 0.295,
+    "Pass_Threshold_0.50": false
+  },
+  {
+    "Gene_ID": "KNGPFPPJ_00109",
+    "Max_Foldseek_TM_Score": 0.3329,
+    "Pass_Threshold_0.50": false
+  },
+  {
+    "Gene_ID": "KNGPFPPJ_00112",
+    "Max_Foldseek_TM_Score": 0.3285,
+    "Pass_Threshold_0.50": false
+  },
+  {
+    "Gene_ID": "KNGPFPPJ_00114",
+    "Max_Foldseek_TM_Score": 0.3173,
+    "Pass_Threshold_0.50": false
+  },
+  {
+    "Gene_ID": "KNGPFPPJ_00115",
+    "Max_Foldseek_TM_Score": 0.3438,
+    "Pass_Threshold_0.50": false
+  }
+]

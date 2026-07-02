@@ -1,0 +1,5 @@
+=== PLM CLUSTERING SIGNIFICANCE REPORT ===
+GNAT candidate ID: KNGPFPPJ_02769
+Mean distance to AAC group: 1.9629
+Permutation test empirical p-value: 0.004100 (N=10000)
+Silhouette score (AAC group vs other ARGs): 0.1460

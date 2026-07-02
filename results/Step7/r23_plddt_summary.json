@@ -1,0 +1,30 @@
+{
+  "GNAT_KA27": {
+    "mean_plddt": 0.87,
+    "min_plddt": 0.39,
+    "max_plddt": 0.98,
+    "fraction_ge_70": 0.0,
+    "fraction_ge_90": 0.0
+  },
+  "Ehly_61": {
+    "mean_plddt": 0.88,
+    "min_plddt": 0.48,
+    "max_plddt": 0.99,
+    "fraction_ge_70": 0.0,
+    "fraction_ge_90": 0.0
+  },
+  "OAgP_161": {
+    "mean_plddt": 0.81,
+    "min_plddt": 0.46,
+    "max_plddt": 0.95,
+    "fraction_ge_70": 0.0,
+    "fraction_ge_90": 0.0
+  },
+  "OAT_371": {
+    "mean_plddt": 84.2,
+    "min_plddt": 16.87,
+    "max_plddt": 97.47,
+    "fraction_ge_70": 88.7,
+    "fraction_ge_90": 46.8
+  }
+}

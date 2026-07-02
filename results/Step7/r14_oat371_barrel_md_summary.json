@@ -1,0 +1,7 @@
+{
+  "domain": "OAT_371 C-terminal Beta-Barrel (734-984 aa)",
+  "n_atoms": 2003,
+  "mean_rmsd_A": 1.5289079501989304,
+  "sd_rmsd_A": 0.09088280673843085,
+  "barrel_stability": "Highly Rigid 12-Stranded Translocation Pore (RMSD < 1.8 \u00c5)"
+}

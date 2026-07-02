@@ -1,0 +1,18 @@
+{
+  "GNAT_KA27": {
+    "Foldseek_TM": 0.9569,
+    "CEalign_RMSD": 1.53
+  },
+  "Ehly_61": {
+    "Foldseek_TM": 0.59,
+    "CEalign_RMSD": 4.27
+  },
+  "OAgP_161": {
+    "Foldseek_TM": 0.8953,
+    "CEalign_RMSD": 2.53
+  },
+  "OAT_371 (Barrel)": {
+    "Foldseek_TM": 0.72,
+    "CEalign_RMSD": 3.03
+  }
+}

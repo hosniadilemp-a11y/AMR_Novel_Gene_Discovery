@@ -1,0 +1,5 @@
+Candidate,Template_Description,Foldseek_TM_Score,CEalign_RMSD_A,Alignment_Status
+GNAT_KA27,S. enterica GNAT,0.9569,1.53,Passed Dual-Threshold
+Ehly_61,Putative Enterohemolysin,0.59,4.27,Passed Dual-Threshold
+OAgP_161,Wzy Polymerase,0.8953,2.53,Passed Dual-Threshold
+OAT_371 (Barrel),Autotransporter Barrel,0.72,3.03,Passed Dual-Threshold

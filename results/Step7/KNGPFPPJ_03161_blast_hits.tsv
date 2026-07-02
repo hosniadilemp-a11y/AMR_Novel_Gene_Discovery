@@ -1,0 +1,201 @@
+Organism	Phylum	Identity%	E-value	QueryCoverage%	Score	Title
+Escherichia coli	Proteobacteria	100.0	0.00e+00	99.7	1888.0	gb|EFD0314962.1| hypothetical protein [Escherichia coli] >gb|KDZ05295.1| putative membrane protein [Escherichia coli 2-4
+Escherichia coli	Proteobacteria	100.0	0.00e+00	99.7	1887.0	ref|WP_021580867.1| O85 family O-antigen polymerase [Escherichia coli] >gb|EOW5788474.1| O85 family O-antigen polymerase
+Escherichia coli	Proteobacteria	100.0	0.00e+00	98.4	1863.0	gb|ELS5671395.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	0.00e+00	98.4	1858.0	tpg|HBH7386753.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	0.00e+00	98.1	1853.0	gb|EFL6536842.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	0.00e+00	97.6	1850.0	ref|WP_262837395.1| O85 family O-antigen polymerase, partial [Escherichia coli] >gb|MCU6257890.1| O85 family O-antigen p
+Escherichia coli	Proteobacteria	100.0	0.00e+00	94.9	1795.0	gb|ELB2984778.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	0.00e+00	94.6	1790.0	gb|EJV4859687.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	0.00e+00	94.1	1778.0	ref|WP_170987616.1| O85 family O-antigen polymerase, partial [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	0.00e+00	92.2	1746.0	tpg|HDW3657533.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	0.00e+00	90.1	1710.0	tpg|HIW1611010.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	0.00e+00	85.8	1627.0	gb|EOU6598637.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	0.00e+00	84.4	1603.0	tpg|HHH7899711.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	0.00e+00	83.9	1595.0	ref|WP_231347667.1| O85 family O-antigen polymerase, partial [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	0.00e+00	83.6	1588.0	gb|EKF8958229.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	0.00e+00	82.3	1564.0	gb|EFF3721349.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	0.00e+00	81.2	1551.0	tpg|HCN9541574.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	0.00e+00	80.6	1543.0	tpg|HAX2002059.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	0.00e+00	79.3	1520.0	tpg|HHX8074289.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	0.00e+00	75.8	1454.0	emb|CTR28892.1| O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	0.00e+00	75.8	1439.0	gb|TPC96792.1| hypothetical protein FIS41_20830 [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	0.00e+00	70.4	1350.0	gb|EGO8988002.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	1.03e-178	67.7	1306.0	tpg|HID6336458.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	8.69e-178	67.5	1300.0	tpg|HBA9264673.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	8.61e-177	66.9	1293.0	gb|ENJ4211552.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	1.37e-170	65.1	1251.0	ref|WP_170995956.1| O85 family O-antigen polymerase, partial [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	4.11e-153	58.6	1134.0	tpg|HCN7354553.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	5.53e-149	58.9	1107.0	gb|EFE5707644.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	6.73e-149	57.0	1106.0	tpg|HCQ6851816.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	5.20e-148	58.6	1100.0	gb|EFK3427694.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	1.39e-145	58.1	1084.0	tpg|HAX2342286.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	8.90e-145	57.8	1079.0	gb|EQA0828817.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	1.73e-139	54.6	1043.0	gb|EFN6982364.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	3.11e-134	53.5	1008.0	gb|MED0529406.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	2.77e-130	51.9	981.0	tpg|HBN6472763.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	8.04e-114	46.5	871.0	gb|TPD39720.1| hypothetical protein FIS43_25615, partial [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	3.03e-105	41.9	813.0	gb|MBO0265125.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	2.69e-104	43.3	807.0	gb|MBO0262070.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	5.48e-92	37.4	724.0	gb|EFE5709663.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	2.00e-90	37.1	713.0	gb|EQA0830005.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	5.50e-90	37.4	711.0	emb|VDY84656.1| O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	3.57e-74	31.2	604.0	gb|EFK3428130.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	8.62e-74	30.9	601.0	tpg|HDW2061202.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	1.59e-71	30.4	586.0	tpg|HCN9986932.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	9.04e-66	28.2	547.0	gb|EPF7280684.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	5.96e-60	25.8	508.0	gb|EIH5900579.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	2.81e-45	22.3	409.0	gb|EPF7280699.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	1.30e-41	19.1	383.0	gb|EFN8668013.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	5.65e-40	20.2	372.0	gb|MCV5435280.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	2.31e-37	19.6	354.0	gb|EKG9475844.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	1.48e-33	17.7	328.0	gb|MCV5761222.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	100.0	2.10e-27	16.1	286.0	gb|MCV5526833.1| hypothetical protein [Escherichia coli]
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1886.0	tpg|HAH6136162.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1883.0	tpg|HAV8156903.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1882.0	gb|NUC57674.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1881.0	ref|WP_261630009.1| O85 family O-antigen polymerase [Escherichia coli] >gb|ENN7168694.1| O85 family O-antigen polymerase
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1881.0	ref|WP_406865659.1| O85 family O-antigen polymerase [Escherichia coli] >gb|WXP85479.1| O85 family O-antigen polymerase [
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1881.0	tpg|HBA4961563.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1881.0	tpg|HEI0684618.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	99.7	0.00e+00	99.7	1880.0	ref|WP_241224685.1| O85 family O-antigen polymerase [Escherichia coli] >gb|MCH7021609.1| hypothetical protein [Escherich
+Escherichia coli	Proteobacteria	99.7	0.00e+00	97.6	1840.0	tpg|HHH7500294.1| O85 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	95.4	1.46e-65	29.0	548.0	emb|VDY84658.1| O-antigen polymerase [Escherichia coli]
+Salmonella enterica	Proteobacteria	66.7	8.97e-42	32.8	388.0	gb|EGJ9209244.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	66.4	7.54e-41	32.5	382.0	gb|EAU1606787.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	66.4	1.52e-37	32.5	360.0	gb|EBP2172399.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Jangwani	Proteobacteria	66.1	3.17e-43	33.9	400.0	tpg|HGB4861686.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Jangwani]
+Salmonella enterica subsp. enterica serovar Carmel	Proteobacteria	65.9	1.62e-45	35.2	414.0	gb|EBW4341023.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Carmel]
+Salmonella enterica subsp. enterica serovar Kirkee	Proteobacteria	65.4	8.58e-46	35.5	417.0	gb|ECA4762683.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Kirkee]
+Salmonella enterica subsp. enterica serovar Kinondoni	Proteobacteria	65.4	9.98e-46	35.5	416.0	gb|MKU04748.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Kinondoni]
+Salmonella enterica	Proteobacteria	61.4	2.52e-44	42.2	409.0	gb|EHA5656215.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Carmel	Proteobacteria	61.3	1.85e-46	46.2	425.0	gb|ECB2039565.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Carmel] >gb|EGN9817193.1| hypothetica
+Salmonella enterica	Proteobacteria	61.3	3.04e-46	46.2	423.0	gb|EAA9082936.1| hypothetical protein [Salmonella enterica] >gb|EBV0766105.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica	Proteobacteria	61.3	3.46e-45	46.2	416.0	gb|ECV0014782.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	61.0	1.10e-44	42.5	411.0	gb|EJA9602379.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	60.6	5.30e-108	84.9	847.0	gb|EAT2662058.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Kinondoni	Proteobacteria	60.6	1.15e-107	84.4	844.0	gb|EBD6699013.1| hypothetical protein [Salmonella enterica] >gb|ECE7566793.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica	Proteobacteria	60.6	1.38e-107	84.4	844.0	gb|EDY7763116.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	60.6	6.54e-46	46.8	421.0	gb|EBR4018511.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	60.6	8.65e-46	46.8	420.0	gb|EAA7556584.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica	Proteobacteria	60.5	2.23e-109	85.5	856.0	gb|EDS7316000.1| hypothetical protein [Salmonella enterica subsp. enterica]
+Salmonella enterica	Proteobacteria	60.4	1.87e-108	81.2	848.0	gb|EAX7038747.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	60.3	6.17e-110	85.8	860.0	gb|EDY0703907.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	60.3	9.97e-110	85.8	858.0	gb|MHI2535134.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Carmel	Proteobacteria	60.3	3.47e-95	76.9	759.0	gb|EDL5695000.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Carmel]
+Salmonella enterica	Proteobacteria	60.3	1.45e-60	47.8	520.0	gb|EBK5127482.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	60.3	2.05e-51	49.2	459.0	gb|EBK3742810.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	60.0	2.06e-54	50.8	479.0	gb|EGG4851559.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	60.0	9.16e-33	36.0	329.0	gb|EBN8532012.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	59.9	1.21e-130	99.7	1002.0	gb|EAA9318623.1| hypothetical protein [Salmonella enterica] >gb|EBX7681933.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica	Proteobacteria	59.9	3.55e-55	44.6	482.0	gb|EBR0872794.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica	Proteobacteria	59.8	1.01e-54	46.5	480.0	gb|EED7660929.1| hypothetical protein [Salmonella enterica subsp. enterica]
+Salmonella enterica	Proteobacteria	59.7	1.89e-127	99.7	981.0	ref|WP_079840089.1| hypothetical protein [Salmonella enterica] >gb|EAA8439472.1| hypothetical protein [Salmonella enteri
+Salmonella enterica	Proteobacteria	59.7	2.50e-127	99.7	980.0	gb|EJG4768269.1| hypothetical protein [Salmonella enterica] >gb|EJT1131076.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	59.7	2.95e-127	99.7	979.0	ref|WP_140039929.1| hypothetical protein [Salmonella enterica] >gb|EAC1007823.1| hypothetical protein [Salmonella enteri
+Salmonella enterica subsp. enterica serovar Carmel	Proteobacteria	59.7	3.05e-127	99.7	979.0	ref|WP_111761429.1| hypothetical protein [Salmonella enterica] >gb|EBV4373609.1| hypothetical protein [Salmonella enteri
+Salmonella enterica	Proteobacteria	59.7	3.40e-127	99.7	979.0	gb|EAU0716298.1| hypothetical protein [Salmonella enterica] >gb|EBS2258192.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica subsp. enterica serovar Michigan	Proteobacteria	59.7	4.23e-127	99.7	978.0	gb|EEJ4094861.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Michigan]
+Salmonella enterica	Proteobacteria	59.7	4.27e-127	99.7	978.0	gb|EKJ5691771.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Michigan	Proteobacteria	59.7	4.65e-58	48.4	503.0	gb|EDU4029709.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Michigan]
+Salmonella enterica subsp. enterica serovar Michigan	Proteobacteria	59.6	2.94e-53	45.7	470.0	gb|EDT9087951.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Michigan]
+Salmonella enterica subsp. enterica	Proteobacteria	59.5	1.25e-99	78.0	789.0	gb|EDV2066012.1| hypothetical protein [Salmonella enterica subsp. enterica]
+Salmonella enterica	Proteobacteria	59.5	4.62e-60	49.5	517.0	gb|ECV4342013.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Kirkee	Proteobacteria	59.4	3.40e-127	99.7	979.0	gb|EBX3332315.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Kirkee]
+Salmonella enterica subsp. enterica serovar Carmel	Proteobacteria	59.4	6.40e-127	99.7	977.0	tpg|HBJ6965427.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Carmel]
+Salmonella enterica subsp. salamae	Proteobacteria	59.4	2.94e-126	99.7	973.0	gb|EDR8056914.1| hypothetical protein [Salmonella enterica subsp. salamae]
+Salmonella enterica subsp. houtenae serovar 17:z29:-	Proteobacteria	59.4	9.25e-126	99.7	969.0	gb|EHB3785347.1| hypothetical protein [Salmonella enterica subsp. houtenae serovar 17:z29:-]
+Salmonella enterica	Proteobacteria	59.4	1.53e-106	84.4	837.0	gb|EBP2166560.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Jangwani	Proteobacteria	59.3	2.35e-53	46.0	471.0	gb|EDR6737287.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Jangwani]
+Salmonella enterica	Proteobacteria	59.2	3.00e-59	49.2	511.0	gb|EDV9656390.1| hypothetical protein [Salmonella enterica subsp. enterica] >gb|EDZ6747364.1| hypothetical protein [Salm
+Salmonella enterica	Proteobacteria	59.2	4.23e-59	49.2	510.0	gb|EDG2518078.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. diarizonae	Proteobacteria	59.1	1.33e-123	99.7	955.0	gb|EBQ4755254.1| hypothetical protein [Salmonella enterica subsp. diarizonae]
+Salmonella enterica subsp. enterica serovar Carmel	Proteobacteria	59.1	2.65e-72	60.2	602.0	gb|EBW4338882.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Carmel]
+Salmonella enterica	Proteobacteria	59.1	1.44e-70	55.6	589.0	gb|EBQ5663322.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	59.0	2.49e-73	61.3	609.0	gb|EGJ9207295.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	58.9	3.44e-123	99.7	952.0	gb|EAA9290322.1| hypothetical protein [Salmonella enterica] >gb|EAW1231095.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica	Proteobacteria	58.9	2.65e-51	44.9	457.0	gb|EAX7060104.1| hypothetical protein [Salmonella enterica] >gb|EHI5471391.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	58.9	4.54e-51	44.9	455.0	gb|EBC8032542.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Kirkee	Proteobacteria	58.8	4.01e-69	57.8	580.0	gb|ECA4760819.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Kirkee]
+Salmonella enterica subsp. diarizonae serovar 17:z10:e,n,x,z15	Proteobacteria	58.8	1.96e-51	45.4	458.0	gb|ECG1720694.1| hypothetical protein [Salmonella enterica subsp. diarizonae serovar 17:z10:e,n,x,z15]
+Salmonella enterica	Proteobacteria	58.7	4.52e-71	59.7	593.0	gb|EAU1605635.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	58.7	4.01e-65	52.4	551.0	gb|EDY3360907.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	58.7	6.25e-65	52.4	550.0	gb|EHA5655270.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	58.6	9.33e-51	45.2	453.0	gb|EBQ5468504.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	58.5	1.50e-95	76.9	762.0	gb|EAA3387171.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	58.4	4.45e-70	59.1	587.0	gb|EGX5977428.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	58.4	1.06e-49	44.4	446.0	gb|EAX1295807.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	58.3	5.27e-50	44.9	448.0	gb|ECV0013795.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	58.2	5.05e-49	44.1	441.0	gb|EFR7359440.1| hypothetical protein [Salmonella enterica] >gb|EGG4850616.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Matadi	Proteobacteria	57.9	2.48e-48	43.8	436.0	tpg|HED0071683.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Matadi]
+Salmonella enterica subsp. enterica serovar Kinondoni	Proteobacteria	57.4	2.58e-46	43.3	423.0	tpg|HGI8552457.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Kinondoni]
+Kluyvera cryocrescens	Other/Unclassified	57.3	5.96e-139	99.7	1056.0	tpg|HGH3371385.1| hypothetical protein [Kluyvera cryocrescens]
+Salmonella enterica	Proteobacteria	57.3	2.78e-133	99.7	1019.0	gb|EBR2489397.1| hypothetical protein [Salmonella enterica] >gb|ECE4238059.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. enterica serovar Kirkee	Proteobacteria	57.1	3.39e-45	43.0	415.0	gb|EAZ4723799.1| hypothetical protein [Salmonella enterica] >gb|EDR7515613.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica subsp. enterica serovar Kinondoni	Proteobacteria	56.9	1.47e-44	42.7	411.0	gb|EBR3472471.1| hypothetical protein [Salmonella enterica] >gb|EEJ4140241.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica subsp. enterica serovar Michigan	Proteobacteria	56.6	5.68e-44	42.5	407.0	gb|EDR6657008.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Michigan]
+Salmonella enterica subsp. enterica serovar Carmel	Proteobacteria	56.2	4.94e-44	42.7	407.0	tpg|HBJ6786458.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Carmel]
+Salmonella enterica	Proteobacteria	56.0	9.57e-43	42.5	398.0	gb|EAA7554846.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	55.4	9.01e-54	44.9	473.0	gb|EIR1990690.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	54.3	8.09e-37	40.3	358.0	gb|MHJ02472.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. arizonae	Proteobacteria	54.0	2.62e-48	43.0	436.0	gb|EKD5487062.1| hypothetical protein [Salmonella enterica subsp. arizonae]
+Salmonella enterica subsp. enterica serovar Berlin	Proteobacteria	53.5	4.64e-25	33.9	275.0	gb|EEY4578957.1| hypothetical protein [Salmonella enterica subsp. enterica serovar Berlin]
+Morganella morganii	Other/Unclassified	50.7	5.18e-118	97.6	919.0	ref|WP_368899112.1| hypothetical protein [Morganella morganii]
+Morganella morganii	Other/Unclassified	50.7	1.31e-117	97.6	916.0	gb|EOZ5676804.1| hypothetical protein [Morganella morganii] >gb|EPF5871776.1| hypothetical protein [Morganella morganii]
+Morganella morganii	Other/Unclassified	50.5	3.31e-118	99.7	920.0	gb|EKU5843960.1| hypothetical protein [Morganella morganii]
+Comamonas thiooxydans	Other/Unclassified	33.2	3.81e-27	59.9	299.0	ref|WP_123975059.1| hypothetical protein [Comamonas thiooxydans]
+Pasteurellaceae bacterium RH1A	Other/Unclassified	33.2	1.95e-25	61.0	295.0	gb|QIW15374.1| hypothetical protein A4G20_03005 [Pasteurellaceae bacterium RH1A]
+Comamonas testosteroni	Other/Unclassified	32.9	4.22e-34	75.3	357.0	ref|WP_155500123.1| hypothetical protein [Comamonas testosteroni] >gb|KWT74585.1| hypothetical protein APV28_0256 [Comam
+Acinetobacter sp. CIP 102129	Proteobacteria	31.9	2.66e-28	90.3	315.0	ref|WP_004758616.1| hypothetical protein [Acinetobacter sp. CIP 102129] >gb|ENU87666.1| hypothetical protein F973_00077 
+Acinetobacter baumannii	Proteobacteria	31.6	2.75e-27	80.1	308.0	gb|MFX7948387.1| hypothetical protein [Acinetobacter baumannii]
+Xenorhabdus bovienii	Other/Unclassified	31.5	4.62e-25	72.3	291.0	ref|WP_275383389.1| hypothetical protein [Xenorhabdus bovienii] >gb|MDE9481667.1| hypothetical protein [Xenorhabdus bovi
+Xenorhabdus bovienii	Other/Unclassified	31.5	1.00e-24	72.3	289.0	ref|WP_275385340.1| hypothetical protein [Xenorhabdus bovienii] >gb|MDE9486657.1| hypothetical protein [Xenorhabdus bovi
+Acinetobacter seifertii	Proteobacteria	31.2	1.06e-26	75.0	298.0	gb|PJG65711.1| hypothetical protein CVD09_15015 [Acinetobacter seifertii]
+Acinetobacter baumannii	Proteobacteria	31.2	1.82e-26	75.0	297.0	gb|MDB0323732.1| hypothetical protein [Acinetobacter baumannii]
+Acinetobacter seifertii	Proteobacteria	30.9	5.50e-27	80.1	302.0	ref|WP_213064061.1| hypothetical protein, partial [Acinetobacter seifertii]
+Acinetobacter genomosp. 33YU	Proteobacteria	30.9	2.97e-26	80.1	301.0	ref|WP_039255137.1| hypothetical protein [Acinetobacter genomosp. 33YU] >gb|ONN48110.1| hypothetical protein AC056_17510
+Acinetobacter baumannii	Proteobacteria	30.9	4.92e-26	80.1	299.0	ref|WP_086223879.1| MULTISPECIES: hypothetical protein [Acinetobacter calcoaceticus/baumannii complex] >gb|MBP1477459.1|
+Acinetobacter baumannii	Proteobacteria	30.9	7.37e-26	80.1	298.0	ref|WP_289333344.1| hypothetical protein [Acinetobacter baumannii] >gb|MFX6291297.1| hypothetical protein [Acinetobacter
+Providencia stuartii	Other/Unclassified	30.8	1.35e-31	95.4	339.0	ref|WP_195848922.1| hypothetical protein [Providencia stuartii]
+Acinetobacter nosocomialis	Proteobacteria	30.6	6.60e-26	80.1	298.0	ref|WP_114269969.1| MULTISPECIES: hypothetical protein [Acinetobacter calcoaceticus/baumannii complex] >gb|MDA3576614.1|
+Salmonella enterica	Proteobacteria	30.2	9.52e-24	69.4	277.0	gb|EIB3203719.1| hypothetical protein [Salmonella enterica]
+Escherichia albertii	Proteobacteria	30.2	1.16e-23	70.2	283.0	gb|ENK3380149.1| hypothetical protein [Escherichia albertii] >dbj|BBM62598.1| O-antigen polymerase [Escherichia albertii
+Escherichia albertii	Proteobacteria	30.2	1.39e-23	70.2	282.0	ref|WP_059270282.1| hypothetical protein [Escherichia albertii] >gb|EQQ4695866.1| hypothetical protein [Escherichia albe
+Pigmentiphaga sp. NML030171	Other/Unclassified	30.1	2.50e-33	95.2	353.0	ref|WP_087841648.1| MULTISPECIES: hypothetical protein [unclassified Pigmentiphaga] >gb|MDH2236110.1| hypothetical prote
+Comamonas thiooxydans	Other/Unclassified	30.0	1.95e-27	75.5	310.0	ref|WP_347613510.1| hypothetical protein [Comamonas thiooxydans]
+Comamonas thiooxydans	Other/Unclassified	30.0	2.52e-27	75.5	309.0	ref|WP_302131904.1| hypothetical protein [Comamonas thiooxydans] >gb|MDO1476697.1| hypothetical protein [Comamonas thioo
+Citrobacter portucalensis	Proteobacteria	30.0	4.47e-26	70.4	300.0	ref|WP_100272168.1| hypothetical protein [Citrobacter portucalensis]
+Citrobacter portucalensis	Proteobacteria	30.0	4.70e-26	70.4	300.0	ref|WP_284969251.1| hypothetical protein [Citrobacter portucalensis] >gb|EIP1107604.1| hypothetical protein [Citrobacter
+Escherichia coli	Proteobacteria	30.0	7.87e-24	68.8	284.0	tpg|HDT0930939.1| O49 family O-antigen polymerase [Escherichia coli]
+Salmonella enterica	Proteobacteria	30.0	7.89e-24	69.6	277.0	gb|EGW1295420.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	30.0	9.26e-24	69.6	278.0	gb|EAM4410730.1| hypothetical protein [Salmonella enterica] >gb|EBX0544677.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica	Proteobacteria	30.0	5.00e-23	69.6	277.0	gb|EAT1273261.1| hypothetical protein [Salmonella enterica] >gb|EHP7743667.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	30.0	5.13e-23	69.6	277.0	gb|EGO0093725.1| hypothetical protein [Salmonella enterica] >gb|EKB9851433.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. houtenae	Proteobacteria	30.0	5.56e-23	69.6	277.0	gb|EGJ3415085.1| hypothetical protein [Salmonella enterica subsp. houtenae]
+Salmonella enterica	Proteobacteria	30.0	5.61e-23	69.6	276.0	gb|EIK2989386.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	30.0	5.61e-23	69.6	276.0	gb|EFR0620059.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. houtenae serovar 44:z36,Z38:-	Proteobacteria	30.0	5.97e-23	69.6	277.0	gb|EAR8744384.1| hypothetical protein [Salmonella enterica] >gb|EBP3985898.1| hypothetical protein [Salmonella enterica 
+Salmonella enterica	Proteobacteria	30.0	6.15e-23	69.6	277.0	gb|EFB0112264.1| hypothetical protein [Salmonella enterica] >gb|EFR5477361.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica	Proteobacteria	30.0	1.32e-22	66.9	273.0	gb|EDK9049560.1| hypothetical protein [Salmonella enterica]
+Buttiauxella gaviniae ATCC 51604	Other/Unclassified	30.0	1.57e-22	71.2	275.0	ref|WP_064512184.1| hypothetical protein [Buttiauxella gaviniae] >gb|OAT23445.1| hypothetical protein M977_00695 [Buttia
+Salmonella enterica subsp. houtenae	Proteobacteria	29.9	1.05e-22	69.1	274.0	gb|MLN20406.1| hypothetical protein [Salmonella enterica subsp. houtenae]
+Pigmentiphaga daeguensis	Other/Unclassified	29.8	2.65e-32	95.2	346.0	ref|WP_343927673.1| hypothetical protein [Pigmentiphaga daeguensis]
+Comamonas testosteroni	Other/Unclassified	29.8	1.29e-27	75.3	311.0	ref|WP_407714318.1| hypothetical protein [Comamonas testosteroni] >gb|XLF97051.1| hypothetical protein ACJJWD_22380 [Com
+Salmonella enterica	Proteobacteria	29.7	1.70e-22	69.6	274.0	gb|EGZ6288444.1| hypothetical protein [Salmonella enterica]
+Escherichia coli	Proteobacteria	29.6	2.18e-23	66.9	281.0	tpg|HAZ7518786.1| O49 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	29.6	3.80e-23	66.9	279.0	ref|WP_097478495.1| O49 family O-antigen polymerase [Escherichia coli] >gb|EQH8165014.1| O49 family O-antigen polymerase
+Escherichia coli	Proteobacteria	29.6	3.88e-23	66.9	279.0	ref|WP_255123709.1| O49 family O-antigen polymerase [Escherichia coli] >gb|MCQ0287605.1| O49 family O-antigen polymerase
+Escherichia coli	Proteobacteria	29.6	5.34e-23	66.9	278.0	gb|EPE5377099.1| O49 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	29.6	6.45e-23	66.9	277.0	ref|WP_024239510.1| O49 family O-antigen polymerase [Escherichia coli] >gb|EFE3306143.1| O49 family O-antigen polymerase
+Escherichia coli	Proteobacteria	29.3	4.34e-23	65.9	272.0	gb|EAC1672540.1| O49 family O-antigen polymerase [Escherichia coli]
+Pigmentiphaga sp.	Other/Unclassified	29.2	6.85e-34	95.2	356.0	ref|WP_420494664.1| hypothetical protein [Pigmentiphaga sp.] >gb|MFW7344947.1| hypothetical protein [Pigmentiphaga sp.]
+Pigmentiphaga daeguensis	Other/Unclassified	29.2	1.40e-32	95.2	347.0	dbj|GAA0508679.1| hypothetical protein GCM10009097_27250 [Pigmentiphaga daeguensis]
+Escherichia coli	Proteobacteria	29.2	7.77e-23	66.9	275.0	tpg|HGC1467202.1| O49 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	29.2	9.22e-23	66.9	276.0	ref|WP_072693157.1| O49 family O-antigen polymerase [Escherichia coli] >gb|EFA4123772.1| O49 family O-antigen polymerase
+Escherichia coli	Proteobacteria	29.2	9.22e-23	66.9	275.0	gb|EFB3261513.1| O49 family O-antigen polymerase [Escherichia coli]
+Escherichia coli	Proteobacteria	29.2	1.36e-22	66.9	275.0	ref|WP_447324123.1| O49 family O-antigen polymerase [Escherichia coli] >gb|MGS5270480.1| O49 family O-antigen polymerase
+Pigmentiphaga sp. D-2	Other/Unclassified	29.1	2.63e-33	95.2	353.0	ref|WP_132980561.1| hypothetical protein [Pigmentiphaga sp. D-2]
+Salmonella enterica	Proteobacteria	29.1	1.34e-22	66.9	268.0	gb|EBI8829925.1| hypothetical protein [Salmonella enterica]
+Salmonella enterica subsp. arizonae	Proteobacteria	29.1	2.23e-22	69.6	268.0	emb|SUG14385.1| O-antigen polymerase [Salmonella enterica subsp. arizonae]
+Pigmentiphaga sp. CHJ604	Other/Unclassified	28.8	3.34e-32	95.2	344.0	ref|WP_338616208.1| hypothetical protein [Pigmentiphaga sp. CHJ604]
+Buttiauxella sp. A111	Other/Unclassified	27.2	7.85e-26	89.8	297.0	ref|WP_183269827.1| polymerase [Buttiauxella sp. A111] >dbj|GDX04563.1| hypothetical protein BSPA111_07310 [Buttiauxella

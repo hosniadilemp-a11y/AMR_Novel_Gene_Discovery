@@ -1,0 +1,26 @@
+{
+  "Leu125A": {
+    "WT_dg_kcal_mol": -23.9,
+    "Mutant_dg_kcal_mol": -21.0,
+    "ddg_kcal_mol": 2.9,
+    "status": "Pocket disruption confirmed"
+  },
+  "Leu187A": {
+    "WT_dg_kcal_mol": -23.9,
+    "Mutant_dg_kcal_mol": -20.23,
+    "ddg_kcal_mol": 3.67,
+    "status": "Pocket disruption confirmed"
+  },
+  "Phe188A": {
+    "WT_dg_kcal_mol": -23.9,
+    "Mutant_dg_kcal_mol": -18.65,
+    "ddg_kcal_mol": 5.25,
+    "status": "Pocket disruption confirmed"
+  },
+  "Triple_Mutant_L125A_L187A_F188A": {
+    "WT_dg_kcal_mol": -23.9,
+    "Mutant_dg_kcal_mol": -12.08,
+    "ddg_kcal_mol": 11.82,
+    "status": "Pocket disruption confirmed"
+  }
+}

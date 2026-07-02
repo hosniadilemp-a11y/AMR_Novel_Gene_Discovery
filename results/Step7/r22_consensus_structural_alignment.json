@@ -1,0 +1,30 @@
+[
+  {
+    "Candidate": "GNAT_KA27",
+    "Template_Description": "S. enterica GNAT",
+    "Foldseek_TM_Score": 0.9569,
+    "CEalign_RMSD_A": 1.53,
+    "Alignment_Status": "Passed Dual-Threshold"
+  },
+  {
+    "Candidate": "Ehly_61",
+    "Template_Description": "Putative Enterohemolysin",
+    "Foldseek_TM_Score": 0.59,
+    "CEalign_RMSD_A": 4.27,
+    "Alignment_Status": "Passed Dual-Threshold"
+  },
+  {
+    "Candidate": "OAgP_161",
+    "Template_Description": "Wzy Polymerase",
+    "Foldseek_TM_Score": 0.8953,
+    "CEalign_RMSD_A": 2.53,
+    "Alignment_Status": "Passed Dual-Threshold"
+  },
+  {
+    "Candidate": "OAT_371 (Barrel)",
+    "Template_Description": "Autotransporter Barrel",
+    "Foldseek_TM_Score": 0.72,
+    "CEalign_RMSD_A": 3.03,
+    "Alignment_Status": "Passed Dual-Threshold"
+  }
+]
