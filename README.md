@@ -27,7 +27,7 @@
 
 **Manuscript:** Structure-guided prioritization of divergent virulence and resistance candidates in an open pangenome clinical *Escherichia coli* isolate
 
-**Journal:** *Microbiology* (Springer/Nature)
+**Journal:** ---
 
 **Authors:** Sarra Benmoumou-Hosni, Atika Meklat, Ikram Haleche
 
@@ -698,7 +698,7 @@ If you use this pipeline or data in your research, please cite:
   title     = {Structure-guided prioritization of divergent virulence and resistance
                candidates in an open pangenome clinical {Escherichia coli} isolate},
   author    = {Benmoumou-Hosni, Sarra and Meklat, Atika and Haleche, Ikram},
-  journal   = {Microbiology},
+  journal   = {---},
   year      = {2026},
   doi       = {TBD},
   url       = {https://github.com/hosniadilemp-a11y/AMR_Novel_Gene_Discovery}
