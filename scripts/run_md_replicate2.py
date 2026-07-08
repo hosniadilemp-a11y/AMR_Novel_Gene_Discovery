@@ -21,8 +21,8 @@ parser.add_argument("--ns", type=float, default=50.0, help="Total simulation len
 args = parser.parse_args()
 
 # Configuration
-PDB_PATH = "/media/adel/Data/Hosni/openmm_windows_setup/KNGPFPPJ_02769.pdb" 
-solvated_pdb_path = "/media/adel/Data/Hosni/openmm_windows_setup/solvated_system.pdb"
+PDB_PATH = "/media/adel/Data/Hosni/openmm_windows_setup/AMR_Work/results/Step6/esmfold_structures/KNGPFPPJ_02769.pdb" 
+solvated_pdb_path = "/media/adel/Data/Hosni/openmm_windows_setup/AMR_Work/results/md_simulation/solvated_system.pdb"
 TOTAL_NS = args.ns  # Simulation length
 TIMESTEP_FS = 2.0  # 2 fs timestep
 TOTAL_STEPS = int((TOTAL_NS * unit.nanoseconds) / (TIMESTEP_FS * unit.femtoseconds))
