@@ -3,7 +3,7 @@
 ================================================================================
 
 This folder contains everything you need to run GPU-accelerated molecular dynamics (MD)
-simulations for the candidate KNGPFPPJ_02769 on Windows.
+simulations for prioritized candidate proteins on Windows.
 
 --------------------------------------------------------------------------------
 1. CONDA vs PYTHON VENV (RECOMMENDATION)
@@ -46,7 +46,7 @@ Windows Start Menu, navigate to this folder, and run:
 --------------------------------------------------------------------------------
 4. FILES IN THIS FOLDER
 --------------------------------------------------------------------------------
-* KNGPFPPJ_02769.pdb  : The predicted 3D structure coordinate file.
+* candidate_model.pdb : The predicted 3D structure coordinate file.
 * run_md_windows.py   : Standalone OpenMM simulation Python script.
 * install_and_run.bat : Automated environment creator and execution script.
 * README_windows.txt  : This instruction guide.

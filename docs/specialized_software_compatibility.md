@@ -6,13 +6,13 @@ This document evaluates whether the **AMR Novel Gene Discovery Pipeline** can be
 
 ## 1. Executive Summary
 
-| Software Category | Representative Platforms | License / Cost Model | Pipeline Coverage | Key Strength | Major Bottleneck |
-| :--- | :--- | :--- | :---: | :--- | :--- |
-| **Custom Pipeline (This Study)** | Python, Bash, OpenMM, ESMFold, Foldseek | **100% Free & Open-Source** (MIT) | **100% (End-to-End)** | Automated pangenome-to-structure triage across sequence twilight zones (<20–25% ID) | Requires command-line proficiency (Linux/Conda) |
-| **Commercial Genomics Suites** | QIAGEN CLC Genomics Workbench, Geneious Prime | **Commercial / Paid** ($2,500 – $12,000+/year) | **~35% (Steps 1–3)** | Intuitive graphical user interface (GUI), robust assembly & read mapping | Complete absence of AI structure prediction (ESMFold), Foldseek, PLM embeddings, and MD |
-| **Academic Cloud Platforms** | Galaxy Project, DOE KBase, BV-BRC (PATRIC) | **100% Free & Open Web** | **~55% (Steps 1–4, 8b)** | Zero local installation, cloud computing for assembly and pangenomics | Cannot automate the tight singleton-to-ESMFold-to-Foldseek triage loop |
-| **Commercial Molecular Modeling** | Schrödinger Suite (Maestro, Glide, Desmond), CCG MOE | **Commercial / Paid** ($15,000 – $50,000+/year) | **~30% (Steps 8–10)** | Industry-standard docking (Glide), MM-GBSA (Prime), and GPU MD (Desmond) | No microbial genomics, pangenomics, or MGE synteny capabilities |
-| **Academic Structural Tools** | ColabFold, AutoDock Vina, GROMACS, OpenMM | **100% Free & Open-Source** | **~45% (Steps 6–10)** | State-of-the-art structural prediction and biophysical simulation | Fragmented; requires manual file conversion and intermediate scripting |
+| Software Category | Representative Platforms | License / Cost Model | Pipeline Coverage | Feasible Pangenome Cohorts ($N = 32, 400, 800, 2,000$) | Key Strength | Major Bottleneck |
+| :--- | :--- | :--- | :---: | :---: | :--- | :--- |
+| **Custom Pipeline (This Study)** | Python, Bash, OpenMM, ESMFold, Foldseek | **100% Free & Open-Source** (MIT) | **100% (End-to-End)** | **All Scales (32, 400, 800, 2,000)** | Automated pangenome-to-structure triage across sequence twilight zones (<20–25% ID) | Requires command-line proficiency (Linux/Conda) |
+| **Commercial Genomics Suites** | QIAGEN CLC Genomics Workbench, Geneious Prime | **Commercial / Paid** ($2,500 – $12,000+/year) | **~35% (Steps 1–3)** | **$N \le 32$ only** (400: Degraded/Crash; 800/2,000: Fails) | Intuitive graphical user interface (GUI), robust assembly & read mapping | Complete absence of AI structure prediction (ESMFold), Foldseek, PLM embeddings, and MD |
+| **Academic Cloud Platforms** | Galaxy Project, DOE KBase, BV-BRC (PATRIC) | **100% Free & Open Web** | **~55% (Steps 1–4, 8b)** | **$N \le 32$ only** (400: Unreliable; 800/2,000: Quota kill) | Zero local installation, cloud computing for assembly and pangenomics | Cannot automate the tight singleton-to-ESMFold-to-Foldseek triage loop |
+| **Commercial Molecular Modeling** | Schrödinger Suite (Maestro, Glide, Desmond), CCG MOE | **Commercial / Paid** ($15,000 – $50,000+/year) | **~30% (Steps 8–10)** | **None ($N = 0$)** (Incompatible) | Industry-standard docking (Glide), MM-GBSA (Prime), and GPU MD (Desmond) | No microbial genomics, pangenomics, or MGE synteny capabilities |
+| **Academic Structural Tools** | ColabFold, AutoDock Vina, GROMACS, OpenMM | **100% Free & Open-Source** | **~45% (Steps 6–10)** | **None ($N = 0$)** (Incompatible) | State-of-the-art structural prediction and biophysical simulation | Fragmented; requires manual file conversion and intermediate scripting |
 
 ---
 
@@ -25,7 +25,10 @@ The discovery framework consists of 10 sequential analytical phases. The matrix 
 | **Step 1: QC & Trimming** | FastQC, Cutadapt, MultiQC | ✅ Full | ✅ Full | ✅ Full | ❌ None | ❌ None |
 | **Step 2: De Novo Assembly** | SPAdes, QUAST, Mosdepth | ✅ Full | ✅ Full | ✅ Full | ❌ None | ❌ None |
 | **Step 3: Annotation & AMR** | Prokka, AMRFinderPlus, ABRicate | ⚠️ Partial (Plugin) | ⚠️ Partial (ResFinder) | ✅ Full | ❌ None | ❌ None |
-| **Step 3b: Pangenomics** | Panaroo, IQ-TREE, MAFFT | ⚠️ Basic Orthologs | ❌ No Pangenome | ✅ Full (Roary) | ❌ None | ❌ None |
+| **Step 3b (Local $N = 32$ Genomes)** | Panaroo, IQ-TREE, MAFFT | ✅ Supported (~1.5 h) | ⚠️ Slow / Pairwise (~3 h) | ✅ Supported (~1.5 h) | ❌ None | ❌ None |
+| **Step 3b (Lineage $N = 400$ Genomes)** | Panaroo, IQ-TREE, MAFFT | ⚠️ Degraded (>24 h, >64 GB) | ❌ Crashes (JVM Out of Memory) | ⚠️ Unreliable (Frequent OOM) | ❌ None | ❌ None |
+| **Step 3b (Species $N = 800$ Genomes)** | Panaroo, IQ-TREE, MAFFT | ❌ Fails (Requires Server) | ❌ Impossible (Heap overflow) | ❌ Fails (Exceeds 48 h / 32 GB) | ❌ None | ❌ None |
+| **Step 3b (Mega $N = 2,000$ Genomes)** | Panaroo, IQ-TREE, MAFFT | ❌ Impossible (Desktop crash) | ❌ Impossible (Interface freeze) | ❌ Impossible (Multi-tenant ban) | ❌ None | ❌ None |
 | **Step 4: MGE & Synteny** | ISEScan, IntegronFinder, clinker | ❌ Manual | ❌ Manual | ⚠️ Partial | ❌ None | ❌ None |
 | **Step 5: Candidate Triage** | Custom singleton + Swiss-Prot filter | ❌ Custom code | ❌ Custom code | ⚠️ Semi-manual | ❌ None | ❌ None |
 | **Step 6: 3D Fold Prediction** | ESMFold, AlphaFold3, Foldseek | ❌ None | ❌ None | ⚠️ Partial (ColabFold) | ⚠️ AlphaFold DB import | ⚠️ AlphaFold DB import |
@@ -120,6 +123,20 @@ Bacterial pangenomics fundamentally shifts in algorithmic and memory complexity 
 | **Geneious Prime** (Paid) | **Slow / Partial** (~3 h, 14 GB RAM) | **Crashes** (JVM Out of Memory) | **Impossible** (Heap limit exceeded) | **Impossible** (Application freezes on file import) | Java Virtual Machine (JVM) heap limits; $O(N^2)$ pairwise alignment |
 | **Public Galaxy Web** (Free) | **Supported** (~1.5 h queue+run) | **Unreliable** (Frequent OOM timeouts) | **Failure** (Exceeds 32 GB RAM / 48 h quota) | **Impossible** (Shared multi-tenant resource limits) | Strict wall-clock limits (24–48 h) and shared worker memory caps |
 | **DOE KBase** (Free) | **Supported** (~2 h queue+run) | **Unreliable** (>200 genomes times out) | **Failure** (Kernel termination) | **Impossible** (Notebook memory exhaustion) | Jupyter container memory limits; lack of distributed graph traversers |
+| **Schrödinger Suite / MOE** (Paid) | **Incompatible** (No genomics) | **Incompatible** (No genomics) | **Incompatible** (No genomics) | **Incompatible** (No genomics) | Strictly molecular docking and dynamics suite |
+| **OpenMM / GROMACS** (Free) | **Incompatible** (No genomics) | **Incompatible** (No genomics) | **Incompatible** (No genomics) | **Incompatible** (No genomics) | Strictly molecular dynamics and biophysical simulation engine |
+
+#### Pangenome Cohort Feasibility Summary by Platform
+
+| Software Platform | Can do 32 Genomes? | Can do 400 Genomes? | Can do 800 Genomes? | Can do 2,000 Genomes? | Maximum Practical Scale & Bottleneck |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **Our Custom Pipeline** | ✅ **YES** | ✅ **YES** | ✅ **YES** | ✅ **YES** | **Full scale ($N \ge 2,000$)**; linear graph indexing |
+| **QIAGEN CLC Genomics** | ✅ **YES** | ⚠️ **CONDITIONAL** | ❌ **NO** | ❌ **NO** | **$N \le 50$**; k-mer heuristic collapses singletons; extreme RAM |
+| **Geneious Prime** | ⚠️ **YES** (Slow) | ❌ **NO** (Crashes) | ❌ **NO** (OOM) | ❌ **NO** (Freeze) | **$N \le 32$**; JVM heap overflow on large FASTA/GFF sets |
+| **Public Galaxy Web** | ✅ **YES** | ⚠️ **CONDITIONAL** | ❌ **NO** (Timeout) | ❌ **NO** (Quota) | **$N \le 100$**; 48-hour wall clock and 32 GB memory limit |
+| **DOE KBase** | ✅ **YES** | ⚠️ **CONDITIONAL** | ❌ **NO** (OOM) | ❌ **NO** (Timeout) | **$N \le 100$**; Jupyter kernel memory termination |
+| **Schrödinger Suite** | ❌ **NO** | ❌ **NO** | ❌ **NO** | ❌ **NO** | **Incompatible** (No microbial genomics or pangenomics) |
+| **OpenMM / GROMACS** | ❌ **NO** | ❌ **NO** | ❌ **NO** | ❌ **NO** | **Incompatible** (No microbial genomics or pangenomics) |
 
 ---
 

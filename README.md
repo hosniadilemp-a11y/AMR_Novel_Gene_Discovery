@@ -21,7 +21,7 @@
 ![AI](https://img.shields.io/badge/AI-Protein%20Language%20Models-blue)
 ![GNN](https://img.shields.io/badge/Machine%20Learning-Graph%20Neural%20Networks-ff69b4)
 ![Docking](https://img.shields.io/badge/Molecular-Docking-success)
-![MD](https://img.shields.io/badge/Molecular%20Dynamics-127%20ns-blue)
+![MD](https://img.shields.io/badge/Molecular%20Dynamics-OpenMM-blue)
 ![Foldseek](https://img.shields.io/badge/Foldseek-Enabled-success)
 # AMR Novel Gene Discovery — Reproducibility Package
 
@@ -53,7 +53,7 @@
 ![Pipeline](https://img.shields.io/badge/Pipeline-Pangenomics-blueviolet)
 ![Method](https://img.shields.io/badge/Method-Structural%20Bioinformatics-orange)
 ![AI](https://img.shields.io/badge/AI-Protein%20Language%20Models-blue)
-![MD](https://img.shields.io/badge/Molecular%20Dynamics-127%20ns-blue)
+![MD](https://img.shields.io/badge/Molecular%20Dynamics-OpenMM-blue)
 ![Reproducible](https://img.shields.io/badge/Reproducible-Research-brightgreen)
 ![FAIR](https://img.shields.io/badge/FAIR-Compliant-success)
 ![Documentation](https://img.shields.io/badge/Documentation-Complete-success)
@@ -84,26 +84,18 @@
 
 ## Scientific Objective
 
-A substantial fraction of predicted coding sequences in draft bacterial genomes—frequently exceeding 30%—are classified as hypothetical proteins because they lie in the "twilight zone" of sequence homology (<20–25% amino acid identity with characterized proteins). These divergent genes may encode novel antimicrobial resistance (AMR) or virulence determinants that are invisible to standard annotation tools.
+A substantial fraction of predicted coding sequences in draft bacterial genomes—frequently exceeding 30%—are classified as hypothetical proteins because they lie in the "twilight zone" of sequence homology (<20–25% amino acid identity with characterized proteins). These divergent genes may encode unannotated antimicrobial resistance (AMR) or virulence determinants that escape detection by standard sequence-alignment tools.
 
-This repository contains the complete computational pipeline used to:
+This repository provides an automated, structure-guided computational framework designed to:
 
-1. **Characterize** the genomic, pangenomic, and mobilome landscape of the clinical multidrug-resistant *E. coli* ST354 isolate QA5221 from Algiers, Algeria.
-2. **Identify** 23 pangenomic singleton hypothetical proteins unique to QA5221 and absent from the ST354 pangenome.
-3. **Validate** four priority candidates through an integrated pangenome-to-structure pipeline combining:
-   - Structural fold prediction (ESMFold, AlphaFold3)
-   - Structural homology search (Foldseek, TM-align)
-   - Protein language model embedding (ESM-2 650M, UMAP, t-SNE)
-   - Explicit-solvent molecular dynamics simulations (OpenMM, 127 ns)
-   - Molecular docking and MM-GBSA free energy analysis (AutoDock Vina)
-
-The four prioritized candidates are:
-| Locus Tag | Candidate Name | Predicted Function | Key Evidence |
-|---|---|---|---|
-| `KNGPFPPJ_02769` | GNAT_KA27 | GCN5-related N-acetyltransferase (aminoglycoside modifying enzyme) | TM-score=0.957, ΔG=-22.91 kcal/mol |
-| `KNGPFPPJ_00061` | Ehly_61 | Pore-forming enterohemolysin cytolysin | TM-score=0.590, RMSD=2.99 Å |
-| `KNGPFPPJ_03161` | OAgP_161 | O-antigen polymerase (Wzy) | TM-score=0.895, RMSD=2.53 Å |
-| `KNGPFPPJ_04371` | OAT_371 | Outer-membrane autotransporter adhesin | AlphaFold3 model, plasmid-borne |
+1. **Characterize** clinical bacterial draft genomes through automated de novo assembly, annotation, mobile genetic element (MGE) detection, and lineage-specific pangenome profiling.
+2. **Isolate** pangenomic singleton hypothetical proteins residing in the sequence homology "twilight zone" (<20–25% sequence identity).
+3. **Prioritize and Validate** functional resistance and virulence candidates through an integrated pangenome-to-structure pipeline combining:
+   - High-throughput 3D structural fold prediction (ESMFold, AlphaFold3)
+   - Structural fold homology search against structural databases (Foldseek, TM-align)
+   - Protein language model representations (ESM-2 650M, UMAP, t-SNE)
+   - Explicit-solvent molecular dynamics simulations (OpenMM)
+   - Molecular docking and MM-GBSA binding free energy validation (AutoDock Vina)
 
 ---
 
@@ -156,14 +148,14 @@ AMR_Novel_Gene_Discovery/
 │   │   ├── st354_cohort_accessions.txt     # 32 ST354 reference genomes (NCBI)
 │   │   └── outgroup_accessions.txt         # 4 outgroup reference genomes
 │   └── sequences/
-│       ├── candidates.faa             # 23 novel candidate protein sequences (FASTA)
-│       ├── prioritized_candidates.faa # 4 priority candidates (FASTA)
-│       └── amr_reference_panel.faa    # 35 known AMR proteins (PLM reference panel)
+│       ├── candidates.faa             # Filtered candidate protein sequences (FASTA)
+│       ├── prioritized_candidates.faa # Prioritized candidate subset (FASTA)
+│       └── amr_reference_panel.faa    # Reference AMR protein panel (FASTA)
 │
 ├── results/
 │   ├── README.md
 │   ├── step5_candidates/
-│   │   ├── prioritized_candidates.tsv # Final 23 candidates table
+│   │   ├── prioritized_candidates.tsv # Prioritized candidate summary table
 │   │   └── advanced_stats_results.json
 │   ├── step7_plm/
 │   │   ├── esm2_650m_embeddings.npy   # 1280-dim ESM-2 embeddings
@@ -173,10 +165,7 @@ AMR_Novel_Gene_Discovery/
 │   │   ├── docking_specificity_results.tsv
 │   │   └── mmgbsa_binding_energies.tsv
 │   └── step7_blast/
-│       ├── KNGPFPPJ_02769_blast_hits.tsv
-│       ├── KNGPFPPJ_00061_blast_hits.tsv
-│       ├── KNGPFPPJ_03161_blast_hits.tsv
-│       └── KNGPFPPJ_04371_blast_hits.tsv
+│       └── candidate_*_blast_hits.tsv # Homology search results per candidate
 │
 ├── figures/
 │   ├── README.md                      # Figure-to-script mapping table
@@ -185,9 +174,7 @@ AMR_Novel_Gene_Discovery/
 ├── logs/
 │   ├── README.md                      # Log file registry
 │   ├── step1_cutadapt.log
-│   ├── step7_md_apo_gnat.csv          # 127-ns GNAT MD thermodynamic log
-│   ├── step7_md_00061.csv             # Enterohemolysin MD log
-│   ├── step7_md_03161.csv             # O-antigen polymerase MD log
+│   ├── step7_md_*.csv                 # Molecular dynamics thermodynamic logs
 │   └── step7_vina_docking/            # AutoDock Vina log files per ligand
 │
 ├── supplementary/
@@ -295,9 +282,9 @@ conda run -n amr_env python3 scripts/download_genomes.py \
     --output results/step3/reference_genomes/
 ```
 
-### Pre-computed Results
+### Demonstration Data & Output Artifacts
 
-All computationally expensive results (ESM-2 embeddings, Foldseek alignments, MD trajectories) are available in the `results/` and `logs/` directories. You can skip re-running those steps and proceed directly to figure generation.
+Demonstration output artifacts (ESM-2 embeddings, Foldseek alignments, MD trajectory logs) are provided in the `results/` and `logs/` directories to facilitate immediate pipeline testing and figure generation without requiring multi-day compute runs.
 
 ---
 
@@ -322,7 +309,7 @@ Step 6 ──► Step 7 ──► Step 8 ──► Step 9 ──► Step 10
 | 3 | Annotation | Prokka, ABRicate, AMRFinderPlus | contigs.fasta | GFF, GBK, TSV | ~2 h |
 | 3b | Pangenome | Panaroo, IQ-TREE | 32 GFF files | Pangenome matrix, tree | ~12 h |
 | 4 | MGE | ISEScan, IntegronFinder, clinker | contigs.fasta | IS/integron maps | ~1 h |
-| 5 | Candidates | Custom Python, BLASTp, Pfam | Prokka GFF + pangenome | 23 candidates FAA | ~30 min |
+| 5 | Candidates | Custom Python, BLASTp, Pfam | Prokka GFF + pangenome | candidates.faa | ~30 min |
 | 6 | Structure | ESMFold / AlphaFold3, Foldseek | candidates.faa | PDB structures, alignments | ~4 h (GPU) |
 | 7 | PLM / Docking | ESM-2, UMAP, DeepARG, AutoDock Vina | candidates.faa | Embeddings, docking poses | ~3 h (GPU) + ~2 h |
 | 8 | Scoring | Custom Python | All outputs | Novelty score table | ~30 min |
@@ -381,11 +368,8 @@ bash scripts/02_assembly.sh \
 - `results/step2_assembly/quast_report/report.html` — QUAST assembly statistics
 - `results/step2_assembly/coverage_validation/coverage_report.mosdepth.summary.txt` — Per-contig coverage
 
-**Expected QC metrics:**
-- Genome size: ~5.03 Mb
-- N50: ~294,640 bp
-- Number of contigs (≥500 bp): 60
-- Mean coverage depth: ~43.89×
+**Assembly Quality Verification:**
+Assembly contiguity (N50, L50, contig count) and read coverage depth are evaluated via QUAST and mosdepth summary tables, ensuring draft assemblies satisfy QC thresholds before proceeding to annotation.
 
 ---
 
@@ -403,7 +387,7 @@ Includes:
 - ABRicate against ResFinder and VFDB
 - AMRFinderPlus comprehensive screening
 - MOB-suite plasmid reconstruction and typing
-- MLST sequence typing (expected: ST354)
+- MLST sequence typing
 
 ---
 
@@ -421,15 +405,8 @@ bash scripts/03b_pangenome.sh \
 - Panaroo: `--clean-mode strict`, MAFFT alignment
 - IQ-TREE: `-m GTR+F+I+G4 -bb 1000`
 
-**Expected pangenome statistics:**
-| Partition | Gene Clusters | Percentage |
-|---|---|---|
-| Soft Core (≥95%) | 3,298 | 35.91% |
-| Shell (15%–95%) | 2,295 | 24.99% |
-| Cloud (<15%) | 3,591 | 39.10% |
-| **Total** | **9,184** | **100%** |
-
-Pangenome openness parameter α = 0.8699 (open pangenome confirmed).
+**Pangenome Partitioning:**
+Panaroo clusters orthologous genes and reports presence/absence across four frequency partitions: Core (≥99%), Soft Core (95–99%), Shell (15–95%), and Cloud (<15%), alongside pangenome openness estimation via Heap's Law ($\alpha$ parameter).
 
 ---
 
@@ -442,9 +419,10 @@ bash scripts/04_mge_detection.sh \
     --output results/step4_mge/
 ```
 
-**Expected outputs:**
-- 22 IS elements from 9 families (NODE_24 MDR hotspot)
-- 1 In0 integrase (NODE_43) + 1 CALIN array with 6 attC sites (NODE_37)
+**Generated Outputs:**
+- Identified insertion sequences and transposon families (`results/step4_mge/isescan/`)
+- Complete and CALIN integron arrays with associated *attC* cassette sites (`results/step4_mge/integron_finder/`)
+- Multi-locus synteny alignment diagrams (`results/step4_mge/clinker/`)
 
 ---
 
@@ -465,7 +443,7 @@ conda run -n amr_env python3 scripts/05_novel_candidates.py \
 4. EBI Pfam REST API scan — retain sequences with no domain signature
 5. Non-low-complexity (DUST filter)
 
-**Expected output:** 23 prioritized candidate proteins in `data/sequences/candidates.faa`
+**Expected output:** Isolated candidate protein sequences in `data/sequences/candidates.faa` and metadata summary in `results/step5_candidates/prioritized_candidates.tsv`.
 
 ---
 
@@ -490,12 +468,8 @@ conda run -n amr_env python3 scripts/06c_tmalign_validation.py \
     --output results/step6_structures/tmalign_results.tsv
 ```
 
-**Expected key results:**
-| Candidate | Target | TM-score | RMSD (Å) |
-|---|---|---|---|
-| KNGPFPPJ_02769 | 1S5K (GNAT acetyltransferase) | 0.9569 | 1.55 |
-| KNGPFPPJ_00061 | Enterohemolysin | 0.5899 | 2.99 |
-| KNGPFPPJ_03161 | O-antigen polymerase (Wzy) | 0.8953 | 2.53 |
+**Structural Alignment Metrics:**
+TM-align evaluates pairwise alignment between predicted 3D folds and structural homologs, reporting TM-score ($\ge 0.50$ indicates structural fold equivalence), root-mean-square deviation (RMSD, Å), and alignment length in `results/step6_structures/tmalign_results.tsv`.
 
 ---
 
@@ -508,23 +482,14 @@ conda run -n amr_env python3 scripts/06c_tmalign_validation.py \
 
 # Local docking
 conda run -n amr_env python3 scripts/10_docking.py \
-    --receptor results/step6_structures/esmfold/KNGPFPPJ_02769.pdb \
+    --receptor results/step6_structures/esmfold/candidate_model.pdb \
     --ligands data/ligands/ \
     --grid-center "2.964 2.776 2.588" \
     --output results/step7_docking/
 ```
 
-**MM-GBSA binding free energies (Experiment 3):**
-| Ligand | Type | ΔG_binding (kcal/mol) |
-|---|---|---|
-| Kanamycin | ✅ Aminoglycoside | **−23.90** |
-| Amikacin | ✅ Aminoglycoside | **−23.10** |
-| Gentamicin | ✅ Aminoglycoside | **−21.73** |
-| Penicillin G | ❌ Decoy | −14.01 |
-| D-Glucose | ❌ Decoy | −11.70 |
-| Tetracycline | ❌ Decoy | −10.72 |
-
-**Selectivity gap: ~10.8 kcal/mol ≈ 10⁸-fold aminoglycoside preference**
+**Docking and Free-Energy Scoring:**
+AutoDock Vina calculates binding affinities (kcal/mol) across substrate panels and negative decoys. Downstream MM-GBSA calculates binding free energies ($\Delta G_\text{binding}$) incorporating molecular mechanics gas-phase energies and continuum solvation models to evaluate substrate selectivity gaps.
 
 ---
 
@@ -558,25 +523,25 @@ conda run -n amr_env python3 scripts/08_novelty_scoring.py \
 
 #### Step 9: Molecular Dynamics Simulations
 
-> **Note:** Full MD simulations require 127+ ns production runs. The GNAT_KA27 simulation took ~7 days on an NVIDIA RTX 3090. Pre-computed trajectories and analysis data are available in `logs/`.
+> **Note:** Full MD simulations require 100+ ns production runs (~5–7 days per system on an NVIDIA RTX 3090 / A100 GPU). Representative trajectory logs and analysis outputs are available in `logs/`.
 
 ```bash
 # System preparation
 conda run -n amr_openmm python3 scripts/09a_md_setup.py \
-    --pdb results/step6_structures/esmfold/KNGPFPPJ_02769.pdb \
-    --output results/step9_md/gnat_apo/
+    --pdb results/step6_structures/esmfold/candidate_model.pdb \
+    --output results/step9_md/candidate_sim/
 
 # Production MD
 conda run -n amr_openmm python3 scripts/09b_md_production.py \
-    --system results/step9_md/gnat_apo/solvated_system.pdb \
+    --system results/step9_md/candidate_sim/solvated_system.pdb \
     --steps 64000000 \
-    --output results/step9_md/gnat_apo/
+    --output results/step9_md/candidate_sim/
 
 # Analysis
 conda run -n amr_openmm python3 scripts/09c_md_analysis.py \
-    --topology results/step9_md/gnat_apo/solvated_system.pdb \
-    --trajectory results/step9_md/gnat_apo/md_trajectory.dcd \
-    --output results/step9_md/gnat_apo/analysis/
+    --topology results/step9_md/candidate_sim/solvated_system.pdb \
+    --trajectory results/step9_md/candidate_sim/md_trajectory.dcd \
+    --output results/step9_md/candidate_sim/analysis/
 ```
 
 **MD simulation parameters:**
@@ -682,7 +647,7 @@ The 3D structural fold prediction (ESMFold) and structural homology search (Fold
 | **CPU Workstation (Standard)** | Steps 1–5, Step 8 | Local Linux Desktop / Server | 8–16 CPU cores, 16–32 GB RAM (runs via `environment.yml`) |
 | **Local GPU Workstation** | Full Pipeline (Steps 1–8 end-to-end) | Local Linux + NVIDIA GPU | NVIDIA GPU ($\ge 8$\,GB VRAM, CUDA 11.8+); invoke via `--run-gpu-local` |
 | **Free Cloud GPU (Colab / Kaggle)** | Steps 6–7 (ESMFold & ESM-2) | [Google Colab](https://colab.research.google.com/) or [Kaggle](https://www.kaggle.com/) | Free T4 GPU instance; run `scripts/06a_esmfold_prediction.py` and `scripts/07_plm_embeddings.py` |
-| **High-Performance Cluster** | Steps 9–10 (127-ns MD simulations) | GPU Cluster / Cloud A100 | Multi-day production runs (optional, toggle with `--skip-md`) |
+| **High-Performance Cluster** | Steps 9–10 (Production MD simulations) | GPU Cluster / Cloud A100 | Multi-day production runs (optional, toggle with `--skip-md`) |
 
 ---
 
@@ -696,16 +661,16 @@ The 3D structural fold prediction (ESMFold) and structural homology search (Fold
 | Fig. 6 | AMR genetic context maps | `generate_figures.py --fig 6` | `results/step4_mge/` |
 | Fig. 8 | GC vs GC3 codon bias scatter | `generate_figures.py --fig 8` | Prokka `.ffn` + pangenome |
 | Fig. 9b | Candidate codon bias | `generate_figures.py --fig 9b` | `results/step5_candidates/` |
-| Fig. 10b | GNAT structural alignment | `generate_figures.py --fig 10b` | TM-align + PDB |
-| Fig. 12 | GNAT superfamily phylogeny | `generate_figures.py --fig 12` | IQ-TREE + MAFFT |
-| Fig. 13 | Hemolysin structural alignment | `generate_figures.py --fig 13` | TM-align + PDB |
-| Fig. 14 | Wzy structural alignment | `generate_figures.py --fig 14` | TM-align + PDB |
-| Fig. 16 | Autotransporter alignment | `generate_figures.py --fig 16` | TM-align + PDB |
+| Fig. 10b | Candidate structural fold alignment | `generate_figures.py --fig 10b` | TM-align + PDB |
+| Fig. 12 | Candidate superfamily phylogeny | `generate_figures.py --fig 12` | IQ-TREE + MAFFT |
+| Fig. 13 | Secondary candidate structural alignment | `generate_figures.py --fig 13` | TM-align + PDB |
+| Fig. 14 | Membrane-associated candidate structural alignment | `generate_figures.py --fig 14` | TM-align + PDB |
+| Fig. 16 | Autotransporter structural alignment | `generate_figures.py --fig 16` | TM-align + PDB |
 | Fig. 17 | pLDDT confidence profiles | `generate_figures.py --fig 17` | ESMFold output |
 | Fig. 20a | PLM UMAP projection | `generate_figures.py --fig 20a` | `results/step7_plm/` |
 | Fig. 20b | PLM t-SNE projection | `generate_figures.py --fig 20b` | `results/step7_plm/` |
-| Fig. 21 | GNAT MD RMSD + Rg | `generate_figures.py --fig 21` | `logs/step7_md_apo_gnat.csv` |
-| Fig. 22 | Multi-protein MD RMSF | `generate_figures.py --fig 22` | `logs/step7_md_*.csv` |
+| Fig. 21 | Candidate MD RMSD + Rg trajectory analysis | `generate_figures.py --fig 21` | `logs/step7_md_*.csv` |
+| Fig. 22 | Multi-protein MD RMSF fluctuation profile | `generate_figures.py --fig 22` | `logs/step7_md_*.csv` |
 
 | Table | Title | Source |
 |---|---|---|
@@ -732,9 +697,7 @@ The supplementary materials PDF is compiled from `docs/supplementary_materials.t
 | Step 1–5 (Genomics) | 16 CPU cores, 64 GB RAM | ~20 hours |
 | Step 6 (ESMFold) | Kaggle T4 GPU (16 GB) | ~4 hours |
 | Step 7 (PLM embeddings) | Kaggle T4 GPU (16 GB) | ~3 hours |
-| Step 9a (GNAT_KA27 MD, 127 ns) | NVIDIA RTX 3090, 24 GB VRAM | ~7 days |
-| Step 9b (Ehly_61 MD, 100 ns) | NVIDIA RTX 3090, 24 GB VRAM | ~5 days |
-| Step 9c (OAgP_161 MD, 100 ns) | NVIDIA RTX 3090, 24 GB VRAM | ~5 days |
+| Step 9 (Production MD, 100–127 ns per system) | NVIDIA RTX 3090 / A100, 24 GB VRAM | ~5–7 days per system |
 | MD Analysis (Steps 10) | 8 CPU cores, 32 GB RAM | ~4 hours |
 | **Total (excl. MD)** | — | **~32 hours** |
 | **Total (incl. MD)** | — | **~17 days** |
@@ -757,7 +720,7 @@ The supplementary materials PDF is compiled from `docs/supplementary_materials.t
 
 5. **IQ-TREE:** Ultrafast bootstraps (1000 replicates) with `-m GTR+F+I+G4`. Exact bootstrap values may differ across runs due to the stochastic nature of the algorithm; the topology is robust.
 
-6. **MD trajectories:** The large DCD trajectory files (GNAT: 8.4 GB; Ehly: ~6 GB; OAgP: ~6 GB) are not stored in this repository due to GitHub file size limits. They are archived at:
+6. **MD trajectories:** Large binary DCD trajectory files (typically 6–10 GB per 100-ns trajectory) are not stored in this repository due to GitHub file size limits. They are archived at:
    - NCBI BioProject `PRJNA1481519` (to be deposited on publication)
    - Zenodo DOI: `10.5281/zenodo.XXXXXXX` (to be created on publication)
 
