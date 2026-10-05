@@ -1,0 +1,140 @@
+# =============================================================================
+# Pipeline Configuration Template — AMR Novel Gene Discovery
+# =============================================================================
+# Use this template to configure the discovery pipeline for:
+#   1) Another isolate of Escherichia coli
+#   2) Other Enterobacteriaceae (e.g., Salmonella enterica, Klebsiella pneumoniae)
+#   3) Bacteria outside Enterobacteriaceae (e.g., Pseudomonas aeruginosa, Staphylococcus aureus)
+#
+# Instructions:
+#   Copy this file to config/my_isolate_config.yaml, edit the parameters below,
+#   and execute: bash workflows/run_all.sh --config config/my_isolate_config.yaml
+# =============================================================================
+
+# --- Isolate & Taxonomic Information ---
+isolate_id: "CUSTOM_ISOLATE"       # Unique sample identifier (e.g., QA5221, SALM_01)
+genus: "Escherichia"               # Genus: Escherichia, Salmonella, Klebsiella, Pseudomonas, Staphylococcus
+species: "coli"                    # Species: coli, enterica, pneumoniae, aeruginosa, aureus
+sequence_type: "ST_UNKNOWN"        # Sequence type / MLST (if known, e.g., ST354, ST131, ST11)
+sra_accession: ""                  # Optional NCBI SRA accession (e.g., SRRXXXXXXX)
+bioproject: ""                     # Optional NCBI BioProject accession
+
+# --- Cross-Taxa Calibrations ---
+# Baseline core-genome GC percentage for dynamic HGT anomaly detection:
+#   - Escherichia coli:          50.8
+#   - Salmonella enterica:       52.2
+#   - Klebsiella pneumoniae:     57.5
+#   - Pseudomonas aeruginosa:    66.2
+#   - Staphylococcus aureus:     32.8
+core_gc_baseline: 50.8
+
+# Membrane biophysics profile for molecular dynamics (MD) bilayer simulations:
+#   - "gram_negative": Asymmetric LPS / Phosphatidylethanolamine (PE) outer membrane
+#   - "gram_positive": Symmetric POPG / Cardiolipin cytoplasmic membrane
+membrane_biophysics_profile: "gram_negative"
+
+# --- Input Sequencing Paths ---
+raw_reads:
+  r1: "data/raw_reads/custom_isolate_R1.fastq.gz"
+  r2: "data/raw_reads/custom_isolate_R2.fastq.gz"
+
+reference_accessions:
+  # Path to a text file listing NCBI GenBank accessions for lineage/species peer cohort (30-50 genomes)
+  cohort: "data/reference_accessions/peer_cohort_accessions.txt"
+  outgroups: "data/reference_accessions/outgroup_accessions.txt"
+
+# --- Output Directory ---
+output_dir: "results/"
+
+# --- Hardware & GPU Execution Mode ---
+hardware:
+  threads: 8                       # CPU cores to allocate for Steps 1-5, 8
+  run_gpu_locally: false           # Set to true if an NVIDIA GPU (>=8GB VRAM) is available locally.
+                                   # If false, Steps 6-7 are executed via free cloud GPUs (Kaggle/Colab)
+                                   # using standalone scripts: scripts/06a_esmfold_prediction.py & scripts/07_plm_embeddings.py
+
+# --- Step 1: Quality Control & Trimming ---
+qc:
+  quality_cutoff: 30               # Phred quality score threshold (Q30)
+  min_read_length: 50              # Minimum read length after trimming (bp)
+
+# --- Step 2: De Novo Assembly ---
+assembly:
+  spades_mode: "--careful"         # SPAdes assembly mode
+  min_contig_length: 500           # Minimum contig length filter (bp)
+  # Reference genome accession for QUAST validation:
+  #   - E. coli:         NC_000913.3 (K-12 MG1655)
+  #   - S. enterica:     NC_003197.2 (LT2)
+  #   - K. pneumoniae:   NC_016845.1 (HS11286)
+  #   - P. aeruginosa:   NC_002516.2 (PAO1)
+  #   - S. aureus:       NC_007795.1 (NCTC 8325)
+  reference_genome: "NC_000913.3"
+
+# --- Step 3: Genome Annotation ---
+annotation:
+  prokka_kingdom: "Bacteria"
+  amrfinder_organism: "Escherichia"  # NCBI AMRFinderPlus organism flag: Escherichia, Salmonella, Klebsiella, Pseudomonas, Staphylococcus
+  abricate_databases:
+    - "resfinder"
+    - "vfdb"
+    - "card"
+    - "plasmidfinder"
+  amrfinder_database_version: "2026-05-15.1"
+
+# --- Step 3b: Pangenome Clustering ---
+pangenome:
+  panaroo_clean_mode: "strict"
+  panaroo_aligner: "mafft"
+  min_core_frequency: 0.95         # Core threshold (95% presence)
+  iqtree_model: "GTR+F+I+G4"
+  iqtree_bootstraps: 1000
+
+# --- Step 4: Mobile Genetic Element (MGE) Detection ---
+mge:
+  isescan_remove_short: true
+  clinker_min_identity: 0.3
+
+# --- Step 5: Novel Candidate Extraction ---
+candidates:
+  min_protein_length: 200          # Minimum length in amino acids
+  blastp_evalue: 1.0e-5            # Swiss-Prot homology filter cutoff
+  blastp_database: "swissprot"
+  pfam_api_url: "https://www.ebi.ac.uk/Tools/hmmer/search/hmmscan"
+  pangenome_presence_threshold: 1  # 1 = strictly isolate-specific singletons
+
+# --- Step 6: 3D Protein Structure Prediction ---
+structure:
+  esmfold_chunk_size: 64           # Axial attention chunk for memory efficiency
+  esmfold_fp16_stem: true          # FP16 casting to save GPU VRAM
+  foldseek_databases:
+    - "pdb100"
+    - "afdb50"
+    - "afdb-swissprot"
+  foldseek_evalue: 0.001
+  tmscore_threshold: 0.5           # Significant fold homology cutoff
+
+# --- Step 7: Protein Language Model (PLM) Embeddings ---
+plm:
+  model: "facebook/esm2_t33_650M_UR50D"
+  embedding_layer: 33
+  umap_n_neighbors: 15
+  umap_min_dist: 0.1
+  umap_random_state: 42
+  tsne_perplexity: 30
+  tsne_random_state: 42
+
+# --- Step 8: Multi-Layer Novelty Scoring ---
+scoring:
+  weights:
+    pangenome_singleton: 3
+    structural_novelty: 3
+    hgt_gc_evidence: 2
+    plm_amr_proximity: 2
+    novel_domain_no_pfam: 2
+    selection_pressure: 2
+    genomic_island_context: 1
+    coverage_support: 1
+  max_score: 16
+  tier1_threshold: 14              # Tier 1: High-priority candidate
+  tier2_threshold: 11              # Tier 2: Likely candidate
+  tier3_threshold: 8               # Tier 3: Possible candidate

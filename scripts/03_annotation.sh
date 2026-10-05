@@ -19,6 +19,9 @@ set -euo pipefail
 CONTIGS=""
 THREADS=4
 OUTPUT="results/step3_annotation"
+STRAIN="QA5221"
+GENUS="Escherichia"
+SPECIES="coli"
 
 # ---- Parse arguments ----
 while [[ $# -gt 0 ]]; do
@@ -26,6 +29,9 @@ while [[ $# -gt 0 ]]; do
         --contigs)   CONTIGS="$2";   shift 2 ;;
         --threads)   THREADS="$2";   shift 2 ;;
         --output)    OUTPUT="$2";    shift 2 ;;
+        --strain)    STRAIN="$2";    shift 2 ;;
+        --genus)     GENUS="$2";     shift 2 ;;
+        --species)   SPECIES="$2";   shift 2 ;;
         --help)      head -20 "$0";  exit 0 ;;
         *)           echo "Unknown option: $1"; exit 1 ;;
     esac
@@ -61,13 +67,13 @@ echo "Running MLST Sequence Typing..."
 mlst "$CONTIGS" > "$OUTPUT/mlst_prediction.txt"
 
 # ---- 2. Prokka Core Genome Annotation ----
-echo "Running Prokka for genome annotation..."
+echo "Running Prokka for genome annotation ($GENUS $SPECIES)..."
 prokka --outdir "$OUTPUT/prokka_out" \
-       --prefix "QA5221" \
+       --prefix "$STRAIN" \
        --kingdom "Bacteria" \
-       --genus "Escherichia" \
-       --species "coli" \
-       --strain "QA5221" \
+       --genus "$GENUS" \
+       --species "$SPECIES" \
+       --strain "$STRAIN" \
        --force \
        --cpus "$THREADS" \
        "$CONTIGS"
@@ -83,9 +89,9 @@ echo "Generating ABRicate summary report..."
 abricate --summary "$OUTPUT/amr_virulence"/*.tab > "$OUTPUT/amr_virulence/summary.tab"
 
 # ---- 4. NCBI AMRFinderPlus Validation ----
-echo "Running AMRFinderPlus validation..."
-amrfinder -p "$OUTPUT/prokka_out/QA5221.faa" \
-          -O "Escherichia" \
+echo "Running AMRFinderPlus validation for organism: $GENUS..."
+amrfinder -p "$OUTPUT/prokka_out/${STRAIN}.faa" \
+          -O "$GENUS" \
           --plus > "$OUTPUT/amr_virulence/amrfinder_hits.tsv"
 
 # ---- 5. MOB-suite Plasmid Reconstruction ----

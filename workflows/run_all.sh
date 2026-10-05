@@ -13,28 +13,39 @@
 #   --r2 PATH          Reverse reads FASTQ (required)
 #   --threads INT      CPU threads to use (default: 8)
 #   --output DIR       Output root directory (default: results/)
+#   --strain ID        Isolate ID (default: QA5221)
+#   --genus NAME       Genus for annotation (default: Escherichia)
+#   --species NAME     Species for annotation (default: coli)
+#   --cohort-accessions PATH Peer cohort accession list (default: data/reference_accessions/st354_cohort_accessions.txt)
+#   --run-gpu-local    Execute GPU steps locally if an NVIDIA GPU is available
 #   --skip-md          Skip molecular dynamics steps (Steps 9-10)
 #   --skip-gpu         Skip GPU steps (Steps 6-7, use precomputed results)
 #   --from-step INT    Resume from a specific step number
 #   --help             Show this help message
 #
 # EXAMPLES:
-#   # Full pipeline (no GPU steps):
+#   # Full pipeline for QA5221 (CPU steps + precomputed GPU):
 #   bash workflows/run_all.sh \
 #       --r1 data/raw_reads/QA5221_R1.fastq.gz \
 #       --r2 data/raw_reads/QA5221_R2.fastq.gz \
 #       --threads 16 --skip-gpu --skip-md
 #
-#   # Resume from Step 5:
+#   # Custom isolate of Salmonella enterica:
+#   bash workflows/run_all.sh \
+#       --r1 data/raw_reads/salmonella_R1.fastq.gz \
+#       --r2 data/raw_reads/salmonella_R2.fastq.gz \
+#       --strain SALM_01 --genus Salmonella --species enterica \
+#       --cohort-accessions data/reference_accessions/salmonella_cohort.txt
+#
+#   # End-to-end execution on a local workstation with NVIDIA GPU:
 #   bash workflows/run_all.sh \
 #       --r1 data/raw_reads/QA5221_R1.fastq.gz \
 #       --r2 data/raw_reads/QA5221_R2.fastq.gz \
-#       --from-step 5
+#       --run-gpu-local
 #
 # NOTE:
-#   GPU steps (6 and 7) must be run separately on a GPU cluster or Kaggle.
-#   Upload scripts/06a_esmfold_prediction.py and scripts/07_plm_embeddings.py
-#   to a Kaggle notebook with a T4 GPU. See docs/pipeline_overview.md.
+#   GPU steps (6 and 7) can run locally on an NVIDIA GPU (>=8GB VRAM) via --run-gpu-local,
+#   or on free cloud environments (Google Colab / Kaggle T4 GPU). See README.md.
 #
 # ESTIMATED RUNTIMES (16 CPU cores, no GPU steps):
 #   Step 1: ~1 h  |  Step 2: ~3 h  |  Step 3: ~2 h  |  Step 3b: ~12 h
@@ -48,6 +59,11 @@ R1=""
 R2=""
 THREADS=8
 OUTPUT="results"
+STRAIN="QA5221"
+GENUS="Escherichia"
+SPECIES="coli"
+COHORT_ACCESSIONS="data/reference_accessions/st354_cohort_accessions.txt"
+RUN_GPU_LOCAL=false
 SKIP_MD=false
 SKIP_GPU=false
 FROM_STEP=1
@@ -55,15 +71,20 @@ FROM_STEP=1
 # ---- Parse arguments ----
 while [[ $# -gt 0 ]]; do
     case $1 in
-        --r1)       R1="$2";       shift 2 ;;
-        --r2)       R2="$2";       shift 2 ;;
-        --threads)  THREADS="$2";  shift 2 ;;
-        --output)   OUTPUT="$2";   shift 2 ;;
-        --skip-md)  SKIP_MD=true;  shift ;;
-        --skip-gpu) SKIP_GPU=true; shift ;;
-        --from-step) FROM_STEP="$2"; shift 2 ;;
-        --help)     head -50 "$0"; exit 0 ;;
-        *)          echo "Unknown option: $1"; exit 1 ;;
+        --r1)                R1="$2";                shift 2 ;;
+        --r2)                R2="$2";                shift 2 ;;
+        --threads)           THREADS="$2";           shift 2 ;;
+        --output)            OUTPUT="$2";            shift 2 ;;
+        --strain)            STRAIN="$2";            shift 2 ;;
+        --genus)             GENUS="$2";             shift 2 ;;
+        --species)           SPECIES="$2";           shift 2 ;;
+        --cohort-accessions) COHORT_ACCESSIONS="$2"; shift 2 ;;
+        --run-gpu-local)     RUN_GPU_LOCAL=true;     shift ;;
+        --skip-md)           SKIP_MD=true;           shift ;;
+        --skip-gpu)          SKIP_GPU=true;          shift ;;
+        --from-step)         FROM_STEP="$2";         shift 2 ;;
+        --help)              head -60 "$0";          exit 0 ;;
+        *)                   echo "Unknown option: $1"; exit 1 ;;
     esac
 done
 
@@ -126,6 +147,9 @@ run_step 3 "Annotation (Prokka, ABRicate, AMRFinderPlus, MOB-suite)" \
     bash scripts/03_annotation.sh \
         --contigs "$OUTPUT/step2_assembly/spades_output/contigs.fasta" \
         --threads "$THREADS" \
+        --strain "$STRAIN" \
+        --genus "$GENUS" \
+        --species "$SPECIES" \
         --output "$OUTPUT/step3_annotation"
 
 # =============================================================================
@@ -133,8 +157,8 @@ run_step 3 "Annotation (Prokka, ABRicate, AMRFinderPlus, MOB-suite)" \
 # =============================================================================
 run_step 4 "Pangenome & Phylogeny (Panaroo, IQ-TREE)" \
     bash scripts/03b_pangenome.sh \
-        --focal-gff "$OUTPUT/step3_annotation/prokka_out/QA5221.gff" \
-        --accessions data/reference_accessions/st354_cohort_accessions.txt \
+        --focal-gff "$OUTPUT/step3_annotation/prokka_out/${STRAIN}.gff" \
+        --accessions "$COHORT_ACCESSIONS" \
         --threads "$THREADS" \
         --output "$OUTPUT/step3_pangenome"
 
@@ -158,15 +182,28 @@ run_step 6 "Novel Candidate Extraction (BLASTp, Pfam)" \
         --output "$OUTPUT/step5_candidates"
 
 # =============================================================================
-# STEP 6: Protein Structure Prediction (GPU — Kaggle)
+# STEP 6: Protein Structure Prediction (GPU — Local or Cloud Kaggle/Colab)
 # =============================================================================
-if [[ "$SKIP_GPU" == "false" ]]; then
+if [[ "$RUN_GPU_LOCAL" == "true" ]]; then
     echo "================================================================"
-    echo "  STEP 6: Structure Prediction — REQUIRES GPU"
-    echo "  Upload scripts/06a_esmfold_prediction.py to Kaggle T4 GPU."
-    echo "  Download results to: $OUTPUT/step6_structures/esmfold/"
-    echo "  Then run Foldseek and TM-align locally:"
+    echo "  STEP 6: Structure Prediction (Local NVIDIA GPU)"
     echo "================================================================"
+    run_step 7 "ESMFold Prediction (Local GPU)" \
+        python3 scripts/06a_esmfold_prediction.py \
+            --fasta "$OUTPUT/step5_candidates/candidates.faa" \
+            --output "$OUTPUT/step6_structures/esmfold"
+elif [[ "$SKIP_GPU" == "false" ]]; then
+    echo "================================================================"
+    echo "  STEP 6: Structure Prediction — GPU ACCELERATED"
+    echo "  Local GPU execution skipped (--run-gpu-local not passed)."
+    echo "  Free Cloud Alternatives:"
+    echo "    Upload scripts/06a_esmfold_prediction.py to Kaggle or Google Colab (T4 GPU)."
+    echo "    Download results to: $OUTPUT/step6_structures/esmfold/"
+    echo "  Then run Foldseek and TM-align locally below:"
+    echo "================================================================"
+fi
+
+if [[ -d "$OUTPUT/step6_structures/esmfold" ]]; then
     run_step 7 "Foldseek Search + TM-align Validation" \
         python3 scripts/06b_foldseek_search.py \
             --pdb-dir "$OUTPUT/step6_structures/esmfold" \
@@ -183,9 +220,17 @@ fi
 # =============================================================================
 # STEP 7: PLM Embeddings & Docking (GPU + CPU)
 # =============================================================================
-if [[ "$SKIP_GPU" == "false" ]]; then
-    echo "  STEP 7: PLM Embeddings — REQUIRES GPU (Kaggle)"
-    echo "  Upload scripts/07_plm_embeddings.py to Kaggle."
+if [[ "$RUN_GPU_LOCAL" == "true" ]]; then
+    echo "================================================================"
+    echo "  STEP 7: PLM Embeddings (Local NVIDIA GPU)"
+    echo "================================================================"
+    run_step 8 "ESM-2 Embeddings (Local GPU)" \
+        python3 scripts/07_plm_embeddings.py \
+            --fasta "$OUTPUT/step5_candidates/candidates.faa" \
+            --output "$OUTPUT/step7_plm"
+elif [[ "$SKIP_GPU" == "false" ]]; then
+    echo "  STEP 7: PLM Embeddings — GPU ACCELERATED"
+    echo "  Upload scripts/07_plm_embeddings.py to Kaggle/Colab or use --run-gpu-local."
     echo "  Download results to: $OUTPUT/step7_plm/"
 fi
 

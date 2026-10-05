@@ -73,11 +73,12 @@
 5. [Data Acquisition](#data-acquisition)
 6. [Pipeline Overview](#pipeline-overview)
 7. [Step-by-Step Execution](#step-by-step-execution)
-8. [Figure and Table Map](#figure-and-table-map)
-9. [Supplementary Materials](#supplementary-materials)
-10. [Computational Resources](#computational-resources)
-11. [Reproducibility Notes](#reproducibility-notes)
-12. [Citation](#citation)
+8. [Cross-Taxa & Custom Isolate Quickstart](#cross-taxa--custom-isolate-quickstart)
+9. [Figure and Table Map](#figure-and-table-map)
+10. [Supplementary Materials](#supplementary-materials)
+11. [Computational Resources](#computational-resources)
+12. [Reproducibility Notes](#reproducibility-notes)
+13. [Citation](#citation)
 
 ---
 
@@ -605,6 +606,83 @@ python3 scripts/generate_figures.py --fig 1
 # Figure 21 (MD RMSD/Rg panel)
 python3 scripts/generate_figures.py --fig 21
 ```
+
+---
+
+## Cross-Taxa & Custom Isolate Quickstart
+
+While calibrated on clinical *Escherichia coli* QA5221, the prioritization pipeline is designed to be transferable across bacterial taxa with open or accessory-rich genomes. A generic configuration template is provided at [`config/pipeline_config_template.yaml`](config/pipeline_config_template.yaml).
+
+### Scenario A: Analyzing Another Strain of the Same Species (*E. coli*)
+
+To run the discovery pipeline on another *E. coli* isolate (e.g., sequence type ST131 or ST410):
+
+1. Place your paired-end FASTQ reads in `data/raw_reads/`:
+   ```bash
+   data/raw_reads/MY_STRAIN_R1.fastq.gz
+   data/raw_reads/MY_STRAIN_R2.fastq.gz
+   ```
+2. Provide a list of NCBI GenBank accessions for your lineage peer cohort (30–50 assemblies) in `data/reference_accessions/my_cohort_accessions.txt`.
+3. Execute the master workflow:
+   ```bash
+   bash workflows/run_all.sh \
+       --r1 data/raw_reads/MY_STRAIN_R1.fastq.gz \
+       --r2 data/raw_reads/MY_STRAIN_R2.fastq.gz \
+       --strain MY_STRAIN \
+       --cohort-accessions data/reference_accessions/my_cohort_accessions.txt \
+       --threads 16
+   ```
+
+---
+
+### Scenario B: Analyzing Other Enterobacteriaceae (*Salmonella*, *Klebsiella*)
+
+The pangenomic singleton extraction, twilight-zone homology filtering (<20–25% identity), and structural fold matching operate identically. Only taxonomic database flags need to be adjusted:
+
+```bash
+# Example: Salmonella enterica clinical isolate
+bash workflows/run_all.sh \
+    --r1 data/raw_reads/salmonella_R1.fastq.gz \
+    --r2 data/raw_reads/salmonella_R2.fastq.gz \
+    --strain SALM_01 \
+    --genus Salmonella \
+    --species enterica \
+    --cohort-accessions data/reference_accessions/salmonella_cohort.txt \
+    --threads 16
+```
+
+---
+
+### Scenario C: Adapting to Bacteria Outside Enterobacteriaceae (*Pseudomonas*, *Staphylococcus*)
+
+The 3D structural fold prediction (ESMFold) and structural homology search (Foldseek/TM-align) are sequence-independent and universal across the tree of life. However, two host-specific parameters must be calibrated:
+
+1. **Dynamic GC Baseline Calibration:**  
+   In `config/pipeline_config_template.yaml`, anchor the core GC percentage to the host species genome rather than using *E. coli* default (50.8%):
+   | Organism | Core GC Baseline | Taxonomic Group |
+   |---|:---:|---|
+   | *Escherichia coli* | 50.8% | Enterobacteriaceae (Gram-negative) |
+   | *Salmonella enterica* | 52.2% | Enterobacteriaceae (Gram-negative) |
+   | *Klebsiella pneumoniae* | 57.5% | Enterobacteriaceae (Gram-negative) |
+   | *Pseudomonas aeruginosa* | 66.2% | Pseudomonadota (Gram-negative) |
+   | *Acinetobacter baumannii* | 39.1% | Moraxellaceae (Gram-negative) |
+   | *Staphylococcus aureus* | 32.8% | Bacillota (Gram-positive) |
+
+2. **Membrane Biophysics Calibration (for MD Simulations):**  
+   For membrane-associated proteins (e.g., hemolysins or autotransporters), customize the lipid force field in OpenMM:
+   - **Gram-negatives (*Pseudomonas*, *Acinetobacter*):** Asymmetric lipopolysaccharide (LPS) / phosphatidylethanolamine (PE) outer-membrane bilayer.
+   - **Gram-positives (*Staphylococcus*):** Symmetric phosphatidylglycerol (POPG) / cardiolipin cytoplasmic membrane.
+
+---
+
+### Hardware Deployment: Local GPU vs. Free Cloud Execution
+
+| Resource Tier | Supported Pipeline Steps | Recommended Environment | Computational Requirements |
+|---|---|---|---|
+| **CPU Workstation (Standard)** | Steps 1–5, Step 8 | Local Linux Desktop / Server | 8–16 CPU cores, 16–32 GB RAM (runs via `environment.yml`) |
+| **Local GPU Workstation** | Full Pipeline (Steps 1–8 end-to-end) | Local Linux + NVIDIA GPU | NVIDIA GPU ($\ge 8$\,GB VRAM, CUDA 11.8+); invoke via `--run-gpu-local` |
+| **Free Cloud GPU (Colab / Kaggle)** | Steps 6–7 (ESMFold & ESM-2) | [Google Colab](https://colab.research.google.com/) or [Kaggle](https://www.kaggle.com/) | Free T4 GPU instance; run `scripts/06a_esmfold_prediction.py` and `scripts/07_plm_embeddings.py` |
+| **High-Performance Cluster** | Steps 9–10 (127-ns MD simulations) | GPU Cluster / Cloud A100 | Multi-day production runs (optional, toggle with `--skip-md`) |
 
 ---
 
